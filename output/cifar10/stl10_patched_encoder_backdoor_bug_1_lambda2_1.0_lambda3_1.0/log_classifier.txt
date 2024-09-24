@@ -1,0 +1,2512 @@
+/home/hl386/anaconda3/envs/Mudjacking/lib/python3.10/site-packages/torchvision/io/image.py:11: UserWarning: Failed to load image Python extension: /home/hl386/anaconda3/envs/Mudjacking/lib/python3.10/site-packages/torchvision/image.so: undefined symbol: _ZN3c1017RegisterOperatorsD1Ev
+  warn(f"Failed to load image Python extension: {e}")
+test_transform_cifar10
+num_of_classes: 10
+Loaded from: output/cifar10/stl10_patched_encoder_backdoor_bug_1_lambda2_1.0_lambda3_1.0/model_200.pth
+Feature extracting:   0%|          | 0/79 [00:00<?, ?it/s]Feature extracting:   1%|▏         | 1/79 [00:01<01:55,  1.48s/it]Feature extracting:  33%|███▎      | 26/79 [00:01<00:02, 22.57it/s]Feature extracting:  53%|█████▎    | 42/79 [00:01<00:00, 37.62it/s]Feature extracting:  75%|███████▍  | 59/79 [00:01<00:00, 55.42it/s]Feature extracting:  97%|█████████▋| 77/79 [00:01<00:00, 75.24it/s]Feature extracting: 100%|██████████| 79/79 [00:02<00:00, 37.98it/s]
+Feature extracting:   0%|          | 0/125 [00:00<?, ?it/s]Feature extracting:   1%|          | 1/125 [00:01<02:09,  1.05s/it]Feature extracting:  10%|▉         | 12/125 [00:01<00:08, 13.35it/s]Feature extracting:  30%|███       | 38/125 [00:01<00:01, 47.46it/s]Feature extracting:  46%|████▋     | 58/125 [00:01<00:00, 72.40it/s]Feature extracting:  61%|██████    | 76/125 [00:01<00:00, 92.25it/s]Feature extracting:  75%|███████▌  | 94/125 [00:01<00:00, 110.02it/s]Feature extracting:  90%|████████▉ | 112/125 [00:01<00:00, 125.21it/s]Feature extracting: 100%|██████████| 125/125 [00:01<00:00, 67.39it/s] 
+Feature extracting:   0%|          | 0/125 [00:00<?, ?it/s]Feature extracting:   1%|          | 1/125 [00:01<02:24,  1.16s/it]Feature extracting:  22%|██▏       | 28/125 [00:01<00:03, 30.19it/s]Feature extracting:  37%|███▋      | 46/125 [00:01<00:01, 50.11it/s]Feature extracting:  51%|█████     | 64/125 [00:01<00:00, 70.58it/s]Feature extracting:  66%|██████▌   | 82/125 [00:01<00:00, 90.27it/s]Feature extracting:  80%|████████  | 100/125 [00:01<00:00, 108.12it/s]Feature extracting:  94%|█████████▍| 118/125 [00:01<00:00, 123.42it/s]Feature extracting: 100%|██████████| 125/125 [00:01<00:00, 65.62it/s] 
+Feature extracting:   0%|          | 0/13 [00:00<?, ?it/s]Feature extracting:   8%|▊         | 1/13 [00:00<00:11,  1.07it/s]Feature extracting:  92%|█████████▏| 12/13 [00:01<00:00, 14.63it/s]Feature extracting: 100%|██████████| 13/13 [00:01<00:00, 11.26it/s]
+Feature extracting:   0%|          | 0/125 [00:00<?, ?it/s]Feature extracting:   1%|          | 1/125 [00:01<02:11,  1.06s/it]Feature extracting:   2%|▏         | 3/125 [00:01<00:39,  3.12it/s]Feature extracting:   4%|▍         | 5/125 [00:01<00:22,  5.43it/s]Feature extracting:  24%|██▍       | 30/125 [00:01<00:02, 45.86it/s]Feature extracting:  37%|███▋      | 46/125 [00:01<00:01, 66.84it/s]Feature extracting:  50%|█████     | 63/125 [00:01<00:00, 88.73it/s]Feature extracting:  65%|██████▍   | 81/125 [00:01<00:00, 109.01it/s]Feature extracting:  79%|███████▉  | 99/125 [00:01<00:00, 125.41it/s]Feature extracting:  94%|█████████▎| 117/125 [00:01<00:00, 138.10it/s]Feature extracting: 100%|██████████| 125/125 [00:02<00:00, 60.38it/s] 
+Train Epoch: 1 	Loss: 2.302083
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 31.73, "epoch": 1}
+{"metric": "Eval - ASR", "value": 0.00%, "epoch": 1}
+{"metric": "Eval - TBA", "value": 33.24%, "epoch": 1}
+For LaTex: 31.73    & 0.00    &   33.24 
+Train Epoch: 2 	Loss: 2.054791
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 59.04, "epoch": 2}
+{"metric": "Eval - ASR", "value": 4.49%, "epoch": 2}
+{"metric": "Eval - TBA", "value": 54.67%, "epoch": 2}
+For LaTex: 59.04    & 4.49    &   54.67 
+Train Epoch: 3 	Loss: 1.606210
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 64.71, "epoch": 3}
+{"metric": "Eval - ASR", "value": 4.22%, "epoch": 3}
+{"metric": "Eval - TBA", "value": 61.24%, "epoch": 3}
+For LaTex: 64.71    & 4.22    &   61.24 
+Train Epoch: 4 	Loss: 1.318075
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 66.51, "epoch": 4}
+{"metric": "Eval - ASR", "value": 4.36%, "epoch": 4}
+{"metric": "Eval - TBA", "value": 62.53%, "epoch": 4}
+For LaTex: 66.51    & 4.36    &   62.53 
+Train Epoch: 5 	Loss: 1.126112
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 67.72, "epoch": 5}
+{"metric": "Eval - ASR", "value": 4.00%, "epoch": 5}
+{"metric": "Eval - TBA", "value": 64.31%, "epoch": 5}
+For LaTex: 67.72    & 4.00    &   64.31 
+Train Epoch: 6 	Loss: 1.007830
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 69.12, "epoch": 6}
+{"metric": "Eval - ASR", "value": 3.83%, "epoch": 6}
+{"metric": "Eval - TBA", "value": 65.65%, "epoch": 6}
+For LaTex: 69.12    & 3.83    &   65.65 
+Train Epoch: 7 	Loss: 0.928927
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 70.24, "epoch": 7}
+{"metric": "Eval - ASR", "value": 4.08%, "epoch": 7}
+{"metric": "Eval - TBA", "value": 66.50%, "epoch": 7}
+For LaTex: 70.24    & 4.08    &   66.50 
+Train Epoch: 8 	Loss: 0.873858
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 71.15, "epoch": 8}
+{"metric": "Eval - ASR", "value": 3.89%, "epoch": 8}
+{"metric": "Eval - TBA", "value": 67.17%, "epoch": 8}
+For LaTex: 71.15    & 3.89    &   67.17 
+Train Epoch: 9 	Loss: 0.845745
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 71.71, "epoch": 9}
+{"metric": "Eval - ASR", "value": 3.61%, "epoch": 9}
+{"metric": "Eval - TBA", "value": 68.00%, "epoch": 9}
+For LaTex: 71.71    & 3.61    &   68.00 
+Train Epoch: 10 	Loss: 0.812799
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 72.21, "epoch": 10}
+{"metric": "Eval - ASR", "value": 3.60%, "epoch": 10}
+{"metric": "Eval - TBA", "value": 68.35%, "epoch": 10}
+For LaTex: 72.21    & 3.60    &   68.35 
+Train Epoch: 11 	Loss: 0.791955
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 72.33, "epoch": 11}
+{"metric": "Eval - ASR", "value": 3.53%, "epoch": 11}
+{"metric": "Eval - TBA", "value": 68.83%, "epoch": 11}
+For LaTex: 72.33    & 3.53    &   68.83 
+Train Epoch: 12 	Loss: 0.769925
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 72.62, "epoch": 12}
+{"metric": "Eval - ASR", "value": 3.69%, "epoch": 12}
+{"metric": "Eval - TBA", "value": 68.92%, "epoch": 12}
+For LaTex: 72.62    & 3.69    &   68.92 
+Train Epoch: 13 	Loss: 0.757209
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 73.05, "epoch": 13}
+{"metric": "Eval - ASR", "value": 3.46%, "epoch": 13}
+{"metric": "Eval - TBA", "value": 69.35%, "epoch": 13}
+For LaTex: 73.05    & 3.46    &   69.35 
+Train Epoch: 14 	Loss: 0.740166
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 73.21, "epoch": 14}
+{"metric": "Eval - ASR", "value": 3.50%, "epoch": 14}
+{"metric": "Eval - TBA", "value": 69.42%, "epoch": 14}
+For LaTex: 73.21    & 3.50    &   69.42 
+Train Epoch: 15 	Loss: 0.732152
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 73.69, "epoch": 15}
+{"metric": "Eval - ASR", "value": 3.42%, "epoch": 15}
+{"metric": "Eval - TBA", "value": 69.94%, "epoch": 15}
+For LaTex: 73.69    & 3.42    &   69.94 
+Train Epoch: 16 	Loss: 0.718115
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 73.81, "epoch": 16}
+{"metric": "Eval - ASR", "value": 3.25%, "epoch": 16}
+{"metric": "Eval - TBA", "value": 70.17%, "epoch": 16}
+For LaTex: 73.81    & 3.25    &   70.17 
+Train Epoch: 17 	Loss: 0.703206
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 74.08, "epoch": 17}
+{"metric": "Eval - ASR", "value": 3.29%, "epoch": 17}
+{"metric": "Eval - TBA", "value": 70.26%, "epoch": 17}
+For LaTex: 74.08    & 3.29    &   70.26 
+Train Epoch: 18 	Loss: 0.696109
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 74.21, "epoch": 18}
+{"metric": "Eval - ASR", "value": 3.22%, "epoch": 18}
+{"metric": "Eval - TBA", "value": 70.49%, "epoch": 18}
+For LaTex: 74.21    & 3.22    &   70.49 
+Train Epoch: 19 	Loss: 0.692198
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 74.38, "epoch": 19}
+{"metric": "Eval - ASR", "value": 3.12%, "epoch": 19}
+{"metric": "Eval - TBA", "value": 70.64%, "epoch": 19}
+For LaTex: 74.38    & 3.12    &   70.64 
+Train Epoch: 20 	Loss: 0.685550
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 74.54, "epoch": 20}
+{"metric": "Eval - ASR", "value": 3.14%, "epoch": 20}
+{"metric": "Eval - TBA", "value": 70.56%, "epoch": 20}
+For LaTex: 74.54    & 3.14    &   70.56 
+Train Epoch: 21 	Loss: 0.682562
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 74.71, "epoch": 21}
+{"metric": "Eval - ASR", "value": 3.24%, "epoch": 21}
+{"metric": "Eval - TBA", "value": 70.75%, "epoch": 21}
+For LaTex: 74.71    & 3.24    &   70.75 
+Train Epoch: 22 	Loss: 0.667188
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 74.80, "epoch": 22}
+{"metric": "Eval - ASR", "value": 3.10%, "epoch": 22}
+{"metric": "Eval - TBA", "value": 70.90%, "epoch": 22}
+For LaTex: 74.80    & 3.10    &   70.90 
+Train Epoch: 23 	Loss: 0.671620
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 75.10, "epoch": 23}
+{"metric": "Eval - ASR", "value": 3.17%, "epoch": 23}
+{"metric": "Eval - TBA", "value": 70.90%, "epoch": 23}
+For LaTex: 75.10    & 3.17    &   70.90 
+Train Epoch: 24 	Loss: 0.662595
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 75.06, "epoch": 24}
+{"metric": "Eval - ASR", "value": 3.03%, "epoch": 24}
+{"metric": "Eval - TBA", "value": 71.01%, "epoch": 24}
+For LaTex: 75.06    & 3.03    &   71.01 
+Train Epoch: 25 	Loss: 0.660589
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 75.14, "epoch": 25}
+{"metric": "Eval - ASR", "value": 3.04%, "epoch": 25}
+{"metric": "Eval - TBA", "value": 71.06%, "epoch": 25}
+For LaTex: 75.14    & 3.04    &   71.06 
+Train Epoch: 26 	Loss: 0.655638
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 75.16, "epoch": 26}
+{"metric": "Eval - ASR", "value": 3.10%, "epoch": 26}
+{"metric": "Eval - TBA", "value": 71.19%, "epoch": 26}
+For LaTex: 75.16    & 3.10    &   71.19 
+Train Epoch: 27 	Loss: 0.643386
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 75.25, "epoch": 27}
+{"metric": "Eval - ASR", "value": 3.08%, "epoch": 27}
+{"metric": "Eval - TBA", "value": 71.28%, "epoch": 27}
+For LaTex: 75.25    & 3.08    &   71.28 
+Train Epoch: 28 	Loss: 0.640843
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 75.26, "epoch": 28}
+{"metric": "Eval - ASR", "value": 2.94%, "epoch": 28}
+{"metric": "Eval - TBA", "value": 71.39%, "epoch": 28}
+For LaTex: 75.26    & 2.94    &   71.39 
+Train Epoch: 29 	Loss: 0.639159
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 75.35, "epoch": 29}
+{"metric": "Eval - ASR", "value": 3.04%, "epoch": 29}
+{"metric": "Eval - TBA", "value": 71.40%, "epoch": 29}
+For LaTex: 75.35    & 3.04    &   71.40 
+Train Epoch: 30 	Loss: 0.634432
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 75.45, "epoch": 30}
+{"metric": "Eval - ASR", "value": 2.96%, "epoch": 30}
+{"metric": "Eval - TBA", "value": 71.39%, "epoch": 30}
+For LaTex: 75.45    & 2.96    &   71.39 
+Train Epoch: 31 	Loss: 0.630620
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 75.56, "epoch": 31}
+{"metric": "Eval - ASR", "value": 2.96%, "epoch": 31}
+{"metric": "Eval - TBA", "value": 71.56%, "epoch": 31}
+For LaTex: 75.56    & 2.96    &   71.56 
+Train Epoch: 32 	Loss: 0.620216
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 75.61, "epoch": 32}
+{"metric": "Eval - ASR", "value": 2.88%, "epoch": 32}
+{"metric": "Eval - TBA", "value": 71.61%, "epoch": 32}
+For LaTex: 75.61    & 2.88    &   71.61 
+Train Epoch: 33 	Loss: 0.624439
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 75.61, "epoch": 33}
+{"metric": "Eval - ASR", "value": 2.81%, "epoch": 33}
+{"metric": "Eval - TBA", "value": 71.68%, "epoch": 33}
+For LaTex: 75.61    & 2.81    &   71.68 
+Train Epoch: 34 	Loss: 0.617559
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 75.86, "epoch": 34}
+{"metric": "Eval - ASR", "value": 2.90%, "epoch": 34}
+{"metric": "Eval - TBA", "value": 71.71%, "epoch": 34}
+For LaTex: 75.86    & 2.90    &   71.71 
+Train Epoch: 35 	Loss: 0.612281
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 75.81, "epoch": 35}
+{"metric": "Eval - ASR", "value": 2.97%, "epoch": 35}
+{"metric": "Eval - TBA", "value": 71.65%, "epoch": 35}
+For LaTex: 75.81    & 2.97    &   71.65 
+Train Epoch: 36 	Loss: 0.609283
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 75.89, "epoch": 36}
+{"metric": "Eval - ASR", "value": 2.94%, "epoch": 36}
+{"metric": "Eval - TBA", "value": 71.94%, "epoch": 36}
+For LaTex: 75.89    & 2.94    &   71.94 
+Train Epoch: 37 	Loss: 0.605843
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.06, "epoch": 37}
+{"metric": "Eval - ASR", "value": 2.93%, "epoch": 37}
+{"metric": "Eval - TBA", "value": 71.75%, "epoch": 37}
+For LaTex: 76.06    & 2.93    &   71.75 
+Train Epoch: 38 	Loss: 0.608133
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.08, "epoch": 38}
+{"metric": "Eval - ASR", "value": 3.01%, "epoch": 38}
+{"metric": "Eval - TBA", "value": 71.85%, "epoch": 38}
+For LaTex: 76.08    & 3.01    &   71.85 
+Train Epoch: 39 	Loss: 0.594797
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.01, "epoch": 39}
+{"metric": "Eval - ASR", "value": 2.90%, "epoch": 39}
+{"metric": "Eval - TBA", "value": 71.83%, "epoch": 39}
+For LaTex: 76.01    & 2.90    &   71.83 
+Train Epoch: 40 	Loss: 0.594624
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.17, "epoch": 40}
+{"metric": "Eval - ASR", "value": 2.99%, "epoch": 40}
+{"metric": "Eval - TBA", "value": 71.93%, "epoch": 40}
+For LaTex: 76.17    & 2.99    &   71.93 
+Train Epoch: 41 	Loss: 0.592574
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.34, "epoch": 41}
+{"metric": "Eval - ASR", "value": 2.94%, "epoch": 41}
+{"metric": "Eval - TBA", "value": 71.99%, "epoch": 41}
+For LaTex: 76.34    & 2.94    &   71.99 
+Train Epoch: 42 	Loss: 0.584099
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.30, "epoch": 42}
+{"metric": "Eval - ASR", "value": 2.86%, "epoch": 42}
+{"metric": "Eval - TBA", "value": 72.00%, "epoch": 42}
+For LaTex: 76.30    & 2.86    &   72.00 
+Train Epoch: 43 	Loss: 0.583318
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.26, "epoch": 43}
+{"metric": "Eval - ASR", "value": 2.85%, "epoch": 43}
+{"metric": "Eval - TBA", "value": 72.04%, "epoch": 43}
+For LaTex: 76.26    & 2.85    &   72.04 
+Train Epoch: 44 	Loss: 0.579720
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.39, "epoch": 44}
+{"metric": "Eval - ASR", "value": 2.86%, "epoch": 44}
+{"metric": "Eval - TBA", "value": 72.24%, "epoch": 44}
+For LaTex: 76.39    & 2.86    &   72.24 
+Train Epoch: 45 	Loss: 0.577174
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.41, "epoch": 45}
+{"metric": "Eval - ASR", "value": 2.88%, "epoch": 45}
+{"metric": "Eval - TBA", "value": 72.25%, "epoch": 45}
+For LaTex: 76.41    & 2.88    &   72.25 
+Train Epoch: 46 	Loss: 0.575131
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.47, "epoch": 46}
+{"metric": "Eval - ASR", "value": 2.90%, "epoch": 46}
+{"metric": "Eval - TBA", "value": 72.24%, "epoch": 46}
+For LaTex: 76.47    & 2.90    &   72.24 
+Train Epoch: 47 	Loss: 0.571371
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.56, "epoch": 47}
+{"metric": "Eval - ASR", "value": 2.82%, "epoch": 47}
+{"metric": "Eval - TBA", "value": 72.49%, "epoch": 47}
+For LaTex: 76.56    & 2.82    &   72.49 
+Train Epoch: 48 	Loss: 0.569465
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.59, "epoch": 48}
+{"metric": "Eval - ASR", "value": 2.93%, "epoch": 48}
+{"metric": "Eval - TBA", "value": 72.17%, "epoch": 48}
+For LaTex: 76.59    & 2.93    &   72.17 
+Train Epoch: 49 	Loss: 0.562234
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.56, "epoch": 49}
+{"metric": "Eval - ASR", "value": 2.76%, "epoch": 49}
+{"metric": "Eval - TBA", "value": 72.36%, "epoch": 49}
+For LaTex: 76.56    & 2.76    &   72.36 
+Train Epoch: 50 	Loss: 0.560309
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.65, "epoch": 50}
+{"metric": "Eval - ASR", "value": 2.83%, "epoch": 50}
+{"metric": "Eval - TBA", "value": 72.50%, "epoch": 50}
+For LaTex: 76.65    & 2.83    &   72.50 
+Train Epoch: 51 	Loss: 0.554052
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.69, "epoch": 51}
+{"metric": "Eval - ASR", "value": 2.81%, "epoch": 51}
+{"metric": "Eval - TBA", "value": 72.51%, "epoch": 51}
+For LaTex: 76.69    & 2.81    &   72.51 
+Train Epoch: 52 	Loss: 0.556559
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.81, "epoch": 52}
+{"metric": "Eval - ASR", "value": 2.79%, "epoch": 52}
+{"metric": "Eval - TBA", "value": 72.56%, "epoch": 52}
+For LaTex: 76.81    & 2.79    &   72.56 
+Train Epoch: 53 	Loss: 0.552114
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.65, "epoch": 53}
+{"metric": "Eval - ASR", "value": 2.75%, "epoch": 53}
+{"metric": "Eval - TBA", "value": 72.61%, "epoch": 53}
+For LaTex: 76.65    & 2.75    &   72.61 
+Train Epoch: 54 	Loss: 0.554482
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.76, "epoch": 54}
+{"metric": "Eval - ASR", "value": 2.90%, "epoch": 54}
+{"metric": "Eval - TBA", "value": 72.51%, "epoch": 54}
+For LaTex: 76.76    & 2.90    &   72.51 
+Train Epoch: 55 	Loss: 0.545862
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.78, "epoch": 55}
+{"metric": "Eval - ASR", "value": 2.74%, "epoch": 55}
+{"metric": "Eval - TBA", "value": 72.76%, "epoch": 55}
+For LaTex: 76.78    & 2.74    &   72.76 
+Train Epoch: 56 	Loss: 0.543573
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.79, "epoch": 56}
+{"metric": "Eval - ASR", "value": 2.78%, "epoch": 56}
+{"metric": "Eval - TBA", "value": 72.68%, "epoch": 56}
+For LaTex: 76.79    & 2.78    &   72.68 
+Train Epoch: 57 	Loss: 0.541701
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.81, "epoch": 57}
+{"metric": "Eval - ASR", "value": 2.89%, "epoch": 57}
+{"metric": "Eval - TBA", "value": 72.53%, "epoch": 57}
+For LaTex: 76.81    & 2.89    &   72.53 
+Train Epoch: 58 	Loss: 0.531503
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.75, "epoch": 58}
+{"metric": "Eval - ASR", "value": 2.71%, "epoch": 58}
+{"metric": "Eval - TBA", "value": 72.61%, "epoch": 58}
+For LaTex: 76.75    & 2.71    &   72.61 
+Train Epoch: 59 	Loss: 0.532852
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.86, "epoch": 59}
+{"metric": "Eval - ASR", "value": 2.89%, "epoch": 59}
+{"metric": "Eval - TBA", "value": 72.49%, "epoch": 59}
+For LaTex: 76.86    & 2.89    &   72.49 
+Train Epoch: 60 	Loss: 0.529132
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.88, "epoch": 60}
+{"metric": "Eval - ASR", "value": 2.68%, "epoch": 60}
+{"metric": "Eval - TBA", "value": 72.83%, "epoch": 60}
+For LaTex: 76.88    & 2.68    &   72.83 
+Train Epoch: 61 	Loss: 0.527438
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.94, "epoch": 61}
+{"metric": "Eval - ASR", "value": 2.78%, "epoch": 61}
+{"metric": "Eval - TBA", "value": 72.82%, "epoch": 61}
+For LaTex: 76.94    & 2.78    &   72.82 
+Train Epoch: 62 	Loss: 0.523416
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.01, "epoch": 62}
+{"metric": "Eval - ASR", "value": 2.81%, "epoch": 62}
+{"metric": "Eval - TBA", "value": 72.79%, "epoch": 62}
+For LaTex: 77.01    & 2.81    &   72.79 
+Train Epoch: 63 	Loss: 0.524916
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.01, "epoch": 63}
+{"metric": "Eval - ASR", "value": 2.86%, "epoch": 63}
+{"metric": "Eval - TBA", "value": 72.68%, "epoch": 63}
+For LaTex: 77.01    & 2.86    &   72.68 
+Train Epoch: 64 	Loss: 0.522797
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.00, "epoch": 64}
+{"metric": "Eval - ASR", "value": 2.72%, "epoch": 64}
+{"metric": "Eval - TBA", "value": 72.83%, "epoch": 64}
+For LaTex: 77.00    & 2.72    &   72.83 
+Train Epoch: 65 	Loss: 0.516416
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.11, "epoch": 65}
+{"metric": "Eval - ASR", "value": 2.71%, "epoch": 65}
+{"metric": "Eval - TBA", "value": 72.82%, "epoch": 65}
+For LaTex: 77.11    & 2.71    &   72.82 
+Train Epoch: 66 	Loss: 0.514459
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.03, "epoch": 66}
+{"metric": "Eval - ASR", "value": 2.78%, "epoch": 66}
+{"metric": "Eval - TBA", "value": 72.74%, "epoch": 66}
+For LaTex: 77.03    & 2.78    &   72.74 
+Train Epoch: 67 	Loss: 0.512576
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.10, "epoch": 67}
+{"metric": "Eval - ASR", "value": 2.68%, "epoch": 67}
+{"metric": "Eval - TBA", "value": 72.90%, "epoch": 67}
+For LaTex: 77.10    & 2.68    &   72.90 
+Train Epoch: 68 	Loss: 0.508719
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.06, "epoch": 68}
+{"metric": "Eval - ASR", "value": 2.69%, "epoch": 68}
+{"metric": "Eval - TBA", "value": 73.03%, "epoch": 68}
+For LaTex: 77.06    & 2.69    &   73.03 
+Train Epoch: 69 	Loss: 0.504917
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.05, "epoch": 69}
+{"metric": "Eval - ASR", "value": 2.61%, "epoch": 69}
+{"metric": "Eval - TBA", "value": 73.10%, "epoch": 69}
+For LaTex: 77.05    & 2.61    &   73.10 
+Train Epoch: 70 	Loss: 0.506172
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.05, "epoch": 70}
+{"metric": "Eval - ASR", "value": 2.67%, "epoch": 70}
+{"metric": "Eval - TBA", "value": 73.06%, "epoch": 70}
+For LaTex: 77.05    & 2.67    &   73.06 
+Train Epoch: 71 	Loss: 0.496242
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.11, "epoch": 71}
+{"metric": "Eval - ASR", "value": 2.72%, "epoch": 71}
+{"metric": "Eval - TBA", "value": 72.94%, "epoch": 71}
+For LaTex: 77.11    & 2.72    &   72.94 
+Train Epoch: 72 	Loss: 0.500251
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.29, "epoch": 72}
+{"metric": "Eval - ASR", "value": 2.75%, "epoch": 72}
+{"metric": "Eval - TBA", "value": 72.93%, "epoch": 72}
+For LaTex: 77.29    & 2.75    &   72.93 
+Train Epoch: 73 	Loss: 0.495359
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.25, "epoch": 73}
+{"metric": "Eval - ASR", "value": 2.56%, "epoch": 73}
+{"metric": "Eval - TBA", "value": 73.08%, "epoch": 73}
+For LaTex: 77.25    & 2.56    &   73.08 
+Train Epoch: 74 	Loss: 0.489593
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.35, "epoch": 74}
+{"metric": "Eval - ASR", "value": 2.72%, "epoch": 74}
+{"metric": "Eval - TBA", "value": 73.07%, "epoch": 74}
+For LaTex: 77.35    & 2.72    &   73.07 
+Train Epoch: 75 	Loss: 0.490206
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.12, "epoch": 75}
+{"metric": "Eval - ASR", "value": 2.61%, "epoch": 75}
+{"metric": "Eval - TBA", "value": 73.17%, "epoch": 75}
+For LaTex: 77.12    & 2.61    &   73.17 
+Train Epoch: 76 	Loss: 0.488021
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.17, "epoch": 76}
+{"metric": "Eval - ASR", "value": 2.54%, "epoch": 76}
+{"metric": "Eval - TBA", "value": 73.14%, "epoch": 76}
+For LaTex: 77.17    & 2.54    &   73.14 
+Train Epoch: 77 	Loss: 0.482931
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.22, "epoch": 77}
+{"metric": "Eval - ASR", "value": 2.74%, "epoch": 77}
+{"metric": "Eval - TBA", "value": 73.18%, "epoch": 77}
+For LaTex: 77.22    & 2.74    &   73.18 
+Train Epoch: 78 	Loss: 0.479462
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.30, "epoch": 78}
+{"metric": "Eval - ASR", "value": 2.71%, "epoch": 78}
+{"metric": "Eval - TBA", "value": 73.06%, "epoch": 78}
+For LaTex: 77.30    & 2.71    &   73.06 
+Train Epoch: 79 	Loss: 0.473846
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.29, "epoch": 79}
+{"metric": "Eval - ASR", "value": 2.69%, "epoch": 79}
+{"metric": "Eval - TBA", "value": 73.18%, "epoch": 79}
+For LaTex: 77.29    & 2.69    &   73.18 
+Train Epoch: 80 	Loss: 0.474475
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.38, "epoch": 80}
+{"metric": "Eval - ASR", "value": 2.50%, "epoch": 80}
+{"metric": "Eval - TBA", "value": 73.22%, "epoch": 80}
+For LaTex: 77.38    & 2.50    &   73.22 
+Train Epoch: 81 	Loss: 0.466480
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.42, "epoch": 81}
+{"metric": "Eval - ASR", "value": 2.53%, "epoch": 81}
+{"metric": "Eval - TBA", "value": 73.17%, "epoch": 81}
+For LaTex: 77.42    & 2.53    &   73.17 
+Train Epoch: 82 	Loss: 0.470887
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.39, "epoch": 82}
+{"metric": "Eval - ASR", "value": 2.71%, "epoch": 82}
+{"metric": "Eval - TBA", "value": 73.11%, "epoch": 82}
+For LaTex: 77.39    & 2.71    &   73.11 
+Train Epoch: 83 	Loss: 0.465167
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.31, "epoch": 83}
+{"metric": "Eval - ASR", "value": 2.47%, "epoch": 83}
+{"metric": "Eval - TBA", "value": 73.14%, "epoch": 83}
+For LaTex: 77.31    & 2.47    &   73.14 
+Train Epoch: 84 	Loss: 0.465923
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.35, "epoch": 84}
+{"metric": "Eval - ASR", "value": 2.61%, "epoch": 84}
+{"metric": "Eval - TBA", "value": 73.01%, "epoch": 84}
+For LaTex: 77.35    & 2.61    &   73.01 
+Train Epoch: 85 	Loss: 0.459844
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.35, "epoch": 85}
+{"metric": "Eval - ASR", "value": 2.58%, "epoch": 85}
+{"metric": "Eval - TBA", "value": 73.22%, "epoch": 85}
+For LaTex: 77.35    & 2.58    &   73.22 
+Train Epoch: 86 	Loss: 0.455790
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.36, "epoch": 86}
+{"metric": "Eval - ASR", "value": 2.57%, "epoch": 86}
+{"metric": "Eval - TBA", "value": 73.24%, "epoch": 86}
+For LaTex: 77.36    & 2.57    &   73.24 
+Train Epoch: 87 	Loss: 0.461429
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.39, "epoch": 87}
+{"metric": "Eval - ASR", "value": 2.56%, "epoch": 87}
+{"metric": "Eval - TBA", "value": 73.19%, "epoch": 87}
+For LaTex: 77.39    & 2.56    &   73.19 
+Train Epoch: 88 	Loss: 0.452579
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.36, "epoch": 88}
+{"metric": "Eval - ASR", "value": 2.51%, "epoch": 88}
+{"metric": "Eval - TBA", "value": 73.33%, "epoch": 88}
+For LaTex: 77.36    & 2.51    &   73.33 
+Train Epoch: 89 	Loss: 0.448459
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.46, "epoch": 89}
+{"metric": "Eval - ASR", "value": 2.44%, "epoch": 89}
+{"metric": "Eval - TBA", "value": 73.19%, "epoch": 89}
+For LaTex: 77.46    & 2.44    &   73.19 
+Train Epoch: 90 	Loss: 0.446253
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.38, "epoch": 90}
+{"metric": "Eval - ASR", "value": 2.58%, "epoch": 90}
+{"metric": "Eval - TBA", "value": 73.38%, "epoch": 90}
+For LaTex: 77.38    & 2.58    &   73.38 
+Train Epoch: 91 	Loss: 0.445639
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.44, "epoch": 91}
+{"metric": "Eval - ASR", "value": 2.56%, "epoch": 91}
+{"metric": "Eval - TBA", "value": 73.33%, "epoch": 91}
+For LaTex: 77.44    & 2.56    &   73.33 
+Train Epoch: 92 	Loss: 0.443399
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.38, "epoch": 92}
+{"metric": "Eval - ASR", "value": 2.51%, "epoch": 92}
+{"metric": "Eval - TBA", "value": 73.25%, "epoch": 92}
+For LaTex: 77.38    & 2.51    &   73.25 
+Train Epoch: 93 	Loss: 0.441357
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.42, "epoch": 93}
+{"metric": "Eval - ASR", "value": 2.50%, "epoch": 93}
+{"metric": "Eval - TBA", "value": 73.50%, "epoch": 93}
+For LaTex: 77.42    & 2.50    &   73.50 
+Train Epoch: 94 	Loss: 0.438108
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.34, "epoch": 94}
+{"metric": "Eval - ASR", "value": 2.50%, "epoch": 94}
+{"metric": "Eval - TBA", "value": 73.42%, "epoch": 94}
+For LaTex: 77.34    & 2.50    &   73.42 
+Train Epoch: 95 	Loss: 0.438729
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.41, "epoch": 95}
+{"metric": "Eval - ASR", "value": 2.51%, "epoch": 95}
+{"metric": "Eval - TBA", "value": 73.33%, "epoch": 95}
+For LaTex: 77.41    & 2.51    &   73.33 
+Train Epoch: 96 	Loss: 0.434285
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.41, "epoch": 96}
+{"metric": "Eval - ASR", "value": 2.43%, "epoch": 96}
+{"metric": "Eval - TBA", "value": 73.40%, "epoch": 96}
+For LaTex: 77.41    & 2.43    &   73.40 
+Train Epoch: 97 	Loss: 0.432393
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.35, "epoch": 97}
+{"metric": "Eval - ASR", "value": 2.54%, "epoch": 97}
+{"metric": "Eval - TBA", "value": 73.51%, "epoch": 97}
+For LaTex: 77.35    & 2.54    &   73.51 
+Train Epoch: 98 	Loss: 0.428914
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.36, "epoch": 98}
+{"metric": "Eval - ASR", "value": 2.54%, "epoch": 98}
+{"metric": "Eval - TBA", "value": 73.42%, "epoch": 98}
+For LaTex: 77.36    & 2.54    &   73.42 
+Train Epoch: 99 	Loss: 0.424208
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.46, "epoch": 99}
+{"metric": "Eval - ASR", "value": 2.61%, "epoch": 99}
+{"metric": "Eval - TBA", "value": 73.38%, "epoch": 99}
+For LaTex: 77.46    & 2.61    &   73.38 
+Train Epoch: 100 	Loss: 0.423535
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.45, "epoch": 100}
+{"metric": "Eval - ASR", "value": 2.49%, "epoch": 100}
+{"metric": "Eval - TBA", "value": 73.44%, "epoch": 100}
+For LaTex: 77.45    & 2.49    &   73.44 
+Train Epoch: 101 	Loss: 0.425935
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.51, "epoch": 101}
+{"metric": "Eval - ASR", "value": 2.54%, "epoch": 101}
+{"metric": "Eval - TBA", "value": 73.50%, "epoch": 101}
+For LaTex: 77.51    & 2.54    &   73.50 
+Train Epoch: 102 	Loss: 0.419112
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.44, "epoch": 102}
+{"metric": "Eval - ASR", "value": 2.51%, "epoch": 102}
+{"metric": "Eval - TBA", "value": 73.39%, "epoch": 102}
+For LaTex: 77.44    & 2.51    &   73.39 
+Train Epoch: 103 	Loss: 0.419223
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.44, "epoch": 103}
+{"metric": "Eval - ASR", "value": 2.51%, "epoch": 103}
+{"metric": "Eval - TBA", "value": 73.39%, "epoch": 103}
+For LaTex: 77.44    & 2.51    &   73.39 
+Train Epoch: 104 	Loss: 0.414919
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.44, "epoch": 104}
+{"metric": "Eval - ASR", "value": 2.57%, "epoch": 104}
+{"metric": "Eval - TBA", "value": 73.46%, "epoch": 104}
+For LaTex: 77.44    & 2.57    &   73.46 
+Train Epoch: 105 	Loss: 0.409088
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.50, "epoch": 105}
+{"metric": "Eval - ASR", "value": 2.39%, "epoch": 105}
+{"metric": "Eval - TBA", "value": 73.69%, "epoch": 105}
+For LaTex: 77.50    & 2.39    &   73.69 
+Train Epoch: 106 	Loss: 0.405042
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.42, "epoch": 106}
+{"metric": "Eval - ASR", "value": 2.57%, "epoch": 106}
+{"metric": "Eval - TBA", "value": 73.57%, "epoch": 106}
+For LaTex: 77.42    & 2.57    &   73.57 
+Train Epoch: 107 	Loss: 0.404875
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.38, "epoch": 107}
+{"metric": "Eval - ASR", "value": 2.46%, "epoch": 107}
+{"metric": "Eval - TBA", "value": 73.71%, "epoch": 107}
+For LaTex: 77.38    & 2.46    &   73.71 
+Train Epoch: 108 	Loss: 0.397024
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.50, "epoch": 108}
+{"metric": "Eval - ASR", "value": 2.50%, "epoch": 108}
+{"metric": "Eval - TBA", "value": 73.58%, "epoch": 108}
+For LaTex: 77.50    & 2.50    &   73.58 
+Train Epoch: 109 	Loss: 0.398472
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.41, "epoch": 109}
+{"metric": "Eval - ASR", "value": 2.40%, "epoch": 109}
+{"metric": "Eval - TBA", "value": 73.71%, "epoch": 109}
+For LaTex: 77.41    & 2.40    &   73.71 
+Train Epoch: 110 	Loss: 0.399923
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.51, "epoch": 110}
+{"metric": "Eval - ASR", "value": 2.46%, "epoch": 110}
+{"metric": "Eval - TBA", "value": 73.72%, "epoch": 110}
+For LaTex: 77.51    & 2.46    &   73.72 
+Train Epoch: 111 	Loss: 0.401444
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.54, "epoch": 111}
+{"metric": "Eval - ASR", "value": 2.44%, "epoch": 111}
+{"metric": "Eval - TBA", "value": 73.67%, "epoch": 111}
+For LaTex: 77.54    & 2.44    &   73.67 
+Train Epoch: 112 	Loss: 0.397486
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.51, "epoch": 112}
+{"metric": "Eval - ASR", "value": 2.44%, "epoch": 112}
+{"metric": "Eval - TBA", "value": 73.79%, "epoch": 112}
+For LaTex: 77.51    & 2.44    &   73.79 
+Train Epoch: 113 	Loss: 0.392140
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.54, "epoch": 113}
+{"metric": "Eval - ASR", "value": 2.39%, "epoch": 113}
+{"metric": "Eval - TBA", "value": 73.69%, "epoch": 113}
+For LaTex: 77.54    & 2.39    &   73.69 
+Train Epoch: 114 	Loss: 0.385364
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.46, "epoch": 114}
+{"metric": "Eval - ASR", "value": 2.50%, "epoch": 114}
+{"metric": "Eval - TBA", "value": 73.78%, "epoch": 114}
+For LaTex: 77.46    & 2.50    &   73.78 
+Train Epoch: 115 	Loss: 0.390703
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.56, "epoch": 115}
+{"metric": "Eval - ASR", "value": 2.36%, "epoch": 115}
+{"metric": "Eval - TBA", "value": 73.88%, "epoch": 115}
+For LaTex: 77.56    & 2.36    &   73.88 
+Train Epoch: 116 	Loss: 0.385185
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.47, "epoch": 116}
+{"metric": "Eval - ASR", "value": 2.51%, "epoch": 116}
+{"metric": "Eval - TBA", "value": 73.79%, "epoch": 116}
+For LaTex: 77.47    & 2.51    &   73.79 
+Train Epoch: 117 	Loss: 0.383246
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.58, "epoch": 117}
+{"metric": "Eval - ASR", "value": 2.33%, "epoch": 117}
+{"metric": "Eval - TBA", "value": 73.93%, "epoch": 117}
+For LaTex: 77.58    & 2.33    &   73.93 
+Train Epoch: 118 	Loss: 0.380635
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.47, "epoch": 118}
+{"metric": "Eval - ASR", "value": 2.50%, "epoch": 118}
+{"metric": "Eval - TBA", "value": 73.82%, "epoch": 118}
+For LaTex: 77.47    & 2.50    &   73.82 
+Train Epoch: 119 	Loss: 0.373572
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.56, "epoch": 119}
+{"metric": "Eval - ASR", "value": 2.35%, "epoch": 119}
+{"metric": "Eval - TBA", "value": 73.86%, "epoch": 119}
+For LaTex: 77.56    & 2.35    &   73.86 
+Train Epoch: 120 	Loss: 0.376993
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.56, "epoch": 120}
+{"metric": "Eval - ASR", "value": 2.36%, "epoch": 120}
+{"metric": "Eval - TBA", "value": 73.89%, "epoch": 120}
+For LaTex: 77.56    & 2.36    &   73.89 
+Train Epoch: 121 	Loss: 0.369143
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.56, "epoch": 121}
+{"metric": "Eval - ASR", "value": 2.31%, "epoch": 121}
+{"metric": "Eval - TBA", "value": 74.00%, "epoch": 121}
+For LaTex: 77.56    & 2.31    &   74.00 
+Train Epoch: 122 	Loss: 0.369182
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.59, "epoch": 122}
+{"metric": "Eval - ASR", "value": 2.31%, "epoch": 122}
+{"metric": "Eval - TBA", "value": 73.96%, "epoch": 122}
+For LaTex: 77.59    & 2.31    &   73.96 
+Train Epoch: 123 	Loss: 0.364106
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.58, "epoch": 123}
+{"metric": "Eval - ASR", "value": 2.33%, "epoch": 123}
+{"metric": "Eval - TBA", "value": 73.93%, "epoch": 123}
+For LaTex: 77.58    & 2.33    &   73.93 
+Train Epoch: 124 	Loss: 0.364996
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.49, "epoch": 124}
+{"metric": "Eval - ASR", "value": 2.44%, "epoch": 124}
+{"metric": "Eval - TBA", "value": 73.81%, "epoch": 124}
+For LaTex: 77.49    & 2.44    &   73.81 
+Train Epoch: 125 	Loss: 0.365974
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.45, "epoch": 125}
+{"metric": "Eval - ASR", "value": 2.35%, "epoch": 125}
+{"metric": "Eval - TBA", "value": 73.72%, "epoch": 125}
+For LaTex: 77.45    & 2.35    &   73.72 
+Train Epoch: 126 	Loss: 0.364653
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.62, "epoch": 126}
+{"metric": "Eval - ASR", "value": 2.28%, "epoch": 126}
+{"metric": "Eval - TBA", "value": 73.82%, "epoch": 126}
+For LaTex: 77.62    & 2.28    &   73.82 
+Train Epoch: 127 	Loss: 0.359149
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.51, "epoch": 127}
+{"metric": "Eval - ASR", "value": 2.28%, "epoch": 127}
+{"metric": "Eval - TBA", "value": 73.90%, "epoch": 127}
+For LaTex: 77.51    & 2.28    &   73.90 
+Train Epoch: 128 	Loss: 0.353876
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.51, "epoch": 128}
+{"metric": "Eval - ASR", "value": 2.33%, "epoch": 128}
+{"metric": "Eval - TBA", "value": 73.81%, "epoch": 128}
+For LaTex: 77.51    & 2.33    &   73.81 
+Train Epoch: 129 	Loss: 0.357532
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.54, "epoch": 129}
+{"metric": "Eval - ASR", "value": 2.40%, "epoch": 129}
+{"metric": "Eval - TBA", "value": 73.71%, "epoch": 129}
+For LaTex: 77.54    & 2.40    &   73.71 
+Train Epoch: 130 	Loss: 0.348759
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.50, "epoch": 130}
+{"metric": "Eval - ASR", "value": 2.44%, "epoch": 130}
+{"metric": "Eval - TBA", "value": 73.64%, "epoch": 130}
+For LaTex: 77.50    & 2.44    &   73.64 
+Train Epoch: 131 	Loss: 0.349579
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.60, "epoch": 131}
+{"metric": "Eval - ASR", "value": 2.36%, "epoch": 131}
+{"metric": "Eval - TBA", "value": 73.65%, "epoch": 131}
+For LaTex: 77.60    & 2.36    &   73.65 
+Train Epoch: 132 	Loss: 0.339524
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.55, "epoch": 132}
+{"metric": "Eval - ASR", "value": 2.46%, "epoch": 132}
+{"metric": "Eval - TBA", "value": 73.54%, "epoch": 132}
+For LaTex: 77.55    & 2.46    &   73.54 
+Train Epoch: 133 	Loss: 0.343212
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.58, "epoch": 133}
+{"metric": "Eval - ASR", "value": 2.38%, "epoch": 133}
+{"metric": "Eval - TBA", "value": 73.74%, "epoch": 133}
+For LaTex: 77.58    & 2.38    &   73.74 
+Train Epoch: 134 	Loss: 0.344046
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.55, "epoch": 134}
+{"metric": "Eval - ASR", "value": 2.18%, "epoch": 134}
+{"metric": "Eval - TBA", "value": 73.82%, "epoch": 134}
+For LaTex: 77.55    & 2.18    &   73.82 
+Train Epoch: 135 	Loss: 0.336555
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.42, "epoch": 135}
+{"metric": "Eval - ASR", "value": 2.40%, "epoch": 135}
+{"metric": "Eval - TBA", "value": 73.51%, "epoch": 135}
+For LaTex: 77.42    & 2.40    &   73.51 
+Train Epoch: 136 	Loss: 0.336316
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.47, "epoch": 136}
+{"metric": "Eval - ASR", "value": 2.36%, "epoch": 136}
+{"metric": "Eval - TBA", "value": 73.58%, "epoch": 136}
+For LaTex: 77.47    & 2.36    &   73.58 
+Train Epoch: 137 	Loss: 0.331407
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.31, "epoch": 137}
+{"metric": "Eval - ASR", "value": 2.39%, "epoch": 137}
+{"metric": "Eval - TBA", "value": 73.81%, "epoch": 137}
+For LaTex: 77.31    & 2.39    &   73.81 
+Train Epoch: 138 	Loss: 0.333690
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.44, "epoch": 138}
+{"metric": "Eval - ASR", "value": 2.44%, "epoch": 138}
+{"metric": "Eval - TBA", "value": 73.60%, "epoch": 138}
+For LaTex: 77.44    & 2.44    &   73.60 
+Train Epoch: 139 	Loss: 0.331846
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.45, "epoch": 139}
+{"metric": "Eval - ASR", "value": 2.35%, "epoch": 139}
+{"metric": "Eval - TBA", "value": 73.53%, "epoch": 139}
+For LaTex: 77.45    & 2.35    &   73.53 
+Train Epoch: 140 	Loss: 0.322248
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.53, "epoch": 140}
+{"metric": "Eval - ASR", "value": 2.29%, "epoch": 140}
+{"metric": "Eval - TBA", "value": 73.65%, "epoch": 140}
+For LaTex: 77.53    & 2.29    &   73.65 
+Train Epoch: 141 	Loss: 0.323832
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.44, "epoch": 141}
+{"metric": "Eval - ASR", "value": 2.39%, "epoch": 141}
+{"metric": "Eval - TBA", "value": 73.54%, "epoch": 141}
+For LaTex: 77.44    & 2.39    &   73.54 
+Train Epoch: 142 	Loss: 0.324549
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.46, "epoch": 142}
+{"metric": "Eval - ASR", "value": 2.38%, "epoch": 142}
+{"metric": "Eval - TBA", "value": 73.67%, "epoch": 142}
+For LaTex: 77.46    & 2.38    &   73.67 
+Train Epoch: 143 	Loss: 0.325700
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.46, "epoch": 143}
+{"metric": "Eval - ASR", "value": 2.36%, "epoch": 143}
+{"metric": "Eval - TBA", "value": 73.51%, "epoch": 143}
+For LaTex: 77.46    & 2.36    &   73.51 
+Train Epoch: 144 	Loss: 0.318361
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.47, "epoch": 144}
+{"metric": "Eval - ASR", "value": 2.42%, "epoch": 144}
+{"metric": "Eval - TBA", "value": 73.44%, "epoch": 144}
+For LaTex: 77.47    & 2.42    &   73.44 
+Train Epoch: 145 	Loss: 0.318011
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.39, "epoch": 145}
+{"metric": "Eval - ASR", "value": 2.32%, "epoch": 145}
+{"metric": "Eval - TBA", "value": 73.49%, "epoch": 145}
+For LaTex: 77.39    & 2.32    &   73.49 
+Train Epoch: 146 	Loss: 0.315760
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.42, "epoch": 146}
+{"metric": "Eval - ASR", "value": 2.26%, "epoch": 146}
+{"metric": "Eval - TBA", "value": 73.65%, "epoch": 146}
+For LaTex: 77.42    & 2.26    &   73.65 
+Train Epoch: 147 	Loss: 0.311378
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.49, "epoch": 147}
+{"metric": "Eval - ASR", "value": 2.42%, "epoch": 147}
+{"metric": "Eval - TBA", "value": 73.51%, "epoch": 147}
+For LaTex: 77.49    & 2.42    &   73.51 
+Train Epoch: 148 	Loss: 0.315382
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.54, "epoch": 148}
+{"metric": "Eval - ASR", "value": 2.25%, "epoch": 148}
+{"metric": "Eval - TBA", "value": 73.67%, "epoch": 148}
+For LaTex: 77.54    & 2.25    &   73.67 
+Train Epoch: 149 	Loss: 0.310328
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.46, "epoch": 149}
+{"metric": "Eval - ASR", "value": 2.29%, "epoch": 149}
+{"metric": "Eval - TBA", "value": 73.69%, "epoch": 149}
+For LaTex: 77.46    & 2.29    &   73.69 
+Train Epoch: 150 	Loss: 0.308456
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.35, "epoch": 150}
+{"metric": "Eval - ASR", "value": 2.56%, "epoch": 150}
+{"metric": "Eval - TBA", "value": 73.33%, "epoch": 150}
+For LaTex: 77.35    & 2.56    &   73.33 
+Train Epoch: 151 	Loss: 0.303015
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.41, "epoch": 151}
+{"metric": "Eval - ASR", "value": 2.31%, "epoch": 151}
+{"metric": "Eval - TBA", "value": 73.68%, "epoch": 151}
+For LaTex: 77.41    & 2.31    &   73.68 
+Train Epoch: 152 	Loss: 0.301465
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.49, "epoch": 152}
+{"metric": "Eval - ASR", "value": 2.42%, "epoch": 152}
+{"metric": "Eval - TBA", "value": 73.58%, "epoch": 152}
+For LaTex: 77.49    & 2.42    &   73.58 
+Train Epoch: 153 	Loss: 0.298902
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.38, "epoch": 153}
+{"metric": "Eval - ASR", "value": 2.26%, "epoch": 153}
+{"metric": "Eval - TBA", "value": 73.60%, "epoch": 153}
+For LaTex: 77.38    & 2.26    &   73.60 
+Train Epoch: 154 	Loss: 0.297524
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.35, "epoch": 154}
+{"metric": "Eval - ASR", "value": 2.25%, "epoch": 154}
+{"metric": "Eval - TBA", "value": 73.67%, "epoch": 154}
+For LaTex: 77.35    & 2.25    &   73.67 
+Train Epoch: 155 	Loss: 0.294361
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.45, "epoch": 155}
+{"metric": "Eval - ASR", "value": 2.25%, "epoch": 155}
+{"metric": "Eval - TBA", "value": 73.56%, "epoch": 155}
+For LaTex: 77.45    & 2.25    &   73.56 
+Train Epoch: 156 	Loss: 0.296604
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.50, "epoch": 156}
+{"metric": "Eval - ASR", "value": 2.35%, "epoch": 156}
+{"metric": "Eval - TBA", "value": 73.53%, "epoch": 156}
+For LaTex: 77.50    & 2.35    &   73.53 
+Train Epoch: 157 	Loss: 0.290446
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.42, "epoch": 157}
+{"metric": "Eval - ASR", "value": 2.28%, "epoch": 157}
+{"metric": "Eval - TBA", "value": 73.62%, "epoch": 157}
+For LaTex: 77.42    & 2.28    &   73.62 
+Train Epoch: 158 	Loss: 0.286022
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.41, "epoch": 158}
+{"metric": "Eval - ASR", "value": 2.28%, "epoch": 158}
+{"metric": "Eval - TBA", "value": 73.56%, "epoch": 158}
+For LaTex: 77.41    & 2.28    &   73.56 
+Train Epoch: 159 	Loss: 0.288099
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.58, "epoch": 159}
+{"metric": "Eval - ASR", "value": 2.31%, "epoch": 159}
+{"metric": "Eval - TBA", "value": 73.50%, "epoch": 159}
+For LaTex: 77.58    & 2.31    &   73.50 
+Train Epoch: 160 	Loss: 0.281618
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.42, "epoch": 160}
+{"metric": "Eval - ASR", "value": 2.25%, "epoch": 160}
+{"metric": "Eval - TBA", "value": 73.67%, "epoch": 160}
+For LaTex: 77.42    & 2.25    &   73.67 
+Train Epoch: 161 	Loss: 0.283657
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.25, "epoch": 161}
+{"metric": "Eval - ASR", "value": 2.28%, "epoch": 161}
+{"metric": "Eval - TBA", "value": 73.56%, "epoch": 161}
+For LaTex: 77.25    & 2.28    &   73.56 
+Train Epoch: 162 	Loss: 0.270211
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.28, "epoch": 162}
+{"metric": "Eval - ASR", "value": 2.22%, "epoch": 162}
+{"metric": "Eval - TBA", "value": 73.56%, "epoch": 162}
+For LaTex: 77.28    & 2.22    &   73.56 
+Train Epoch: 163 	Loss: 0.279851
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.51, "epoch": 163}
+{"metric": "Eval - ASR", "value": 2.53%, "epoch": 163}
+{"metric": "Eval - TBA", "value": 73.42%, "epoch": 163}
+For LaTex: 77.51    & 2.53    &   73.42 
+Train Epoch: 164 	Loss: 0.276606
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.14, "epoch": 164}
+{"metric": "Eval - ASR", "value": 2.36%, "epoch": 164}
+{"metric": "Eval - TBA", "value": 73.60%, "epoch": 164}
+For LaTex: 77.14    & 2.36    &   73.60 
+Train Epoch: 165 	Loss: 0.272279
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.38, "epoch": 165}
+{"metric": "Eval - ASR", "value": 2.36%, "epoch": 165}
+{"metric": "Eval - TBA", "value": 73.43%, "epoch": 165}
+For LaTex: 77.38    & 2.36    &   73.43 
+Train Epoch: 166 	Loss: 0.272401
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.39, "epoch": 166}
+{"metric": "Eval - ASR", "value": 2.31%, "epoch": 166}
+{"metric": "Eval - TBA", "value": 73.53%, "epoch": 166}
+For LaTex: 77.39    & 2.31    &   73.53 
+Train Epoch: 167 	Loss: 0.271454
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.31, "epoch": 167}
+{"metric": "Eval - ASR", "value": 2.33%, "epoch": 167}
+{"metric": "Eval - TBA", "value": 73.43%, "epoch": 167}
+For LaTex: 77.31    & 2.33    &   73.43 
+Train Epoch: 168 	Loss: 0.267958
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.41, "epoch": 168}
+{"metric": "Eval - ASR", "value": 2.43%, "epoch": 168}
+{"metric": "Eval - TBA", "value": 73.40%, "epoch": 168}
+For LaTex: 77.41    & 2.43    &   73.40 
+Train Epoch: 169 	Loss: 0.265682
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.36, "epoch": 169}
+{"metric": "Eval - ASR", "value": 2.40%, "epoch": 169}
+{"metric": "Eval - TBA", "value": 73.39%, "epoch": 169}
+For LaTex: 77.36    & 2.40    &   73.39 
+Train Epoch: 170 	Loss: 0.258953
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.39, "epoch": 170}
+{"metric": "Eval - ASR", "value": 2.43%, "epoch": 170}
+{"metric": "Eval - TBA", "value": 73.47%, "epoch": 170}
+For LaTex: 77.39    & 2.43    &   73.47 
+Train Epoch: 171 	Loss: 0.260704
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.36, "epoch": 171}
+{"metric": "Eval - ASR", "value": 2.32%, "epoch": 171}
+{"metric": "Eval - TBA", "value": 73.35%, "epoch": 171}
+For LaTex: 77.36    & 2.32    &   73.35 
+Train Epoch: 172 	Loss: 0.253066
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.29, "epoch": 172}
+{"metric": "Eval - ASR", "value": 2.24%, "epoch": 172}
+{"metric": "Eval - TBA", "value": 73.47%, "epoch": 172}
+For LaTex: 77.29    & 2.24    &   73.47 
+Train Epoch: 173 	Loss: 0.253823
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.29, "epoch": 173}
+{"metric": "Eval - ASR", "value": 2.47%, "epoch": 173}
+{"metric": "Eval - TBA", "value": 73.25%, "epoch": 173}
+For LaTex: 77.29    & 2.47    &   73.25 
+Train Epoch: 174 	Loss: 0.253677
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.42, "epoch": 174}
+{"metric": "Eval - ASR", "value": 2.35%, "epoch": 174}
+{"metric": "Eval - TBA", "value": 73.29%, "epoch": 174}
+For LaTex: 77.42    & 2.35    &   73.29 
+Train Epoch: 175 	Loss: 0.250384
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.39, "epoch": 175}
+{"metric": "Eval - ASR", "value": 2.44%, "epoch": 175}
+{"metric": "Eval - TBA", "value": 73.31%, "epoch": 175}
+For LaTex: 77.39    & 2.44    &   73.31 
+Train Epoch: 176 	Loss: 0.250935
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.25, "epoch": 176}
+{"metric": "Eval - ASR", "value": 2.29%, "epoch": 176}
+{"metric": "Eval - TBA", "value": 73.33%, "epoch": 176}
+For LaTex: 77.25    & 2.29    &   73.33 
+Train Epoch: 177 	Loss: 0.249302
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.33, "epoch": 177}
+{"metric": "Eval - ASR", "value": 2.31%, "epoch": 177}
+{"metric": "Eval - TBA", "value": 73.60%, "epoch": 177}
+For LaTex: 77.33    & 2.31    &   73.60 
+Train Epoch: 178 	Loss: 0.241945
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.42, "epoch": 178}
+{"metric": "Eval - ASR", "value": 2.51%, "epoch": 178}
+{"metric": "Eval - TBA", "value": 73.24%, "epoch": 178}
+For LaTex: 77.42    & 2.51    &   73.24 
+Train Epoch: 179 	Loss: 0.245020
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.47, "epoch": 179}
+{"metric": "Eval - ASR", "value": 2.32%, "epoch": 179}
+{"metric": "Eval - TBA", "value": 73.33%, "epoch": 179}
+For LaTex: 77.47    & 2.32    &   73.33 
+Train Epoch: 180 	Loss: 0.242998
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.22, "epoch": 180}
+{"metric": "Eval - ASR", "value": 2.51%, "epoch": 180}
+{"metric": "Eval - TBA", "value": 73.33%, "epoch": 180}
+For LaTex: 77.22    & 2.51    &   73.33 
+Train Epoch: 181 	Loss: 0.240394
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.17, "epoch": 181}
+{"metric": "Eval - ASR", "value": 2.40%, "epoch": 181}
+{"metric": "Eval - TBA", "value": 73.32%, "epoch": 181}
+For LaTex: 77.17    & 2.40    &   73.32 
+Train Epoch: 182 	Loss: 0.236087
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.25, "epoch": 182}
+{"metric": "Eval - ASR", "value": 2.40%, "epoch": 182}
+{"metric": "Eval - TBA", "value": 73.28%, "epoch": 182}
+For LaTex: 77.25    & 2.40    &   73.28 
+Train Epoch: 183 	Loss: 0.235494
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.24, "epoch": 183}
+{"metric": "Eval - ASR", "value": 2.43%, "epoch": 183}
+{"metric": "Eval - TBA", "value": 73.46%, "epoch": 183}
+For LaTex: 77.24    & 2.43    &   73.46 
+Train Epoch: 184 	Loss: 0.233527
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.28, "epoch": 184}
+{"metric": "Eval - ASR", "value": 2.39%, "epoch": 184}
+{"metric": "Eval - TBA", "value": 73.24%, "epoch": 184}
+For LaTex: 77.28    & 2.39    &   73.24 
+Train Epoch: 185 	Loss: 0.231122
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.22, "epoch": 185}
+{"metric": "Eval - ASR", "value": 2.25%, "epoch": 185}
+{"metric": "Eval - TBA", "value": 73.50%, "epoch": 185}
+For LaTex: 77.22    & 2.25    &   73.50 
+Train Epoch: 186 	Loss: 0.226619
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.22, "epoch": 186}
+{"metric": "Eval - ASR", "value": 2.32%, "epoch": 186}
+{"metric": "Eval - TBA", "value": 73.28%, "epoch": 186}
+For LaTex: 77.22    & 2.32    &   73.28 
+Train Epoch: 187 	Loss: 0.230676
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.35, "epoch": 187}
+{"metric": "Eval - ASR", "value": 2.57%, "epoch": 187}
+{"metric": "Eval - TBA", "value": 73.21%, "epoch": 187}
+For LaTex: 77.35    & 2.57    &   73.21 
+Train Epoch: 188 	Loss: 0.220677
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.28, "epoch": 188}
+{"metric": "Eval - ASR", "value": 2.32%, "epoch": 188}
+{"metric": "Eval - TBA", "value": 73.33%, "epoch": 188}
+For LaTex: 77.28    & 2.32    &   73.33 
+Train Epoch: 189 	Loss: 0.218791
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.41, "epoch": 189}
+{"metric": "Eval - ASR", "value": 2.54%, "epoch": 189}
+{"metric": "Eval - TBA", "value": 73.15%, "epoch": 189}
+For LaTex: 77.41    & 2.54    &   73.15 
+Train Epoch: 190 	Loss: 0.221994
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.30, "epoch": 190}
+{"metric": "Eval - ASR", "value": 2.39%, "epoch": 190}
+{"metric": "Eval - TBA", "value": 73.21%, "epoch": 190}
+For LaTex: 77.30    & 2.39    &   73.21 
+Train Epoch: 191 	Loss: 0.219878
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.28, "epoch": 191}
+{"metric": "Eval - ASR", "value": 2.46%, "epoch": 191}
+{"metric": "Eval - TBA", "value": 73.08%, "epoch": 191}
+For LaTex: 77.28    & 2.46    &   73.08 
+Train Epoch: 192 	Loss: 0.218269
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.25, "epoch": 192}
+{"metric": "Eval - ASR", "value": 2.51%, "epoch": 192}
+{"metric": "Eval - TBA", "value": 73.00%, "epoch": 192}
+For LaTex: 77.25    & 2.51    &   73.00 
+Train Epoch: 193 	Loss: 0.213529
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.41, "epoch": 193}
+{"metric": "Eval - ASR", "value": 2.33%, "epoch": 193}
+{"metric": "Eval - TBA", "value": 73.19%, "epoch": 193}
+For LaTex: 77.41    & 2.33    &   73.19 
+Train Epoch: 194 	Loss: 0.210779
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.21, "epoch": 194}
+{"metric": "Eval - ASR", "value": 2.50%, "epoch": 194}
+{"metric": "Eval - TBA", "value": 73.12%, "epoch": 194}
+For LaTex: 77.21    & 2.50    &   73.12 
+Train Epoch: 195 	Loss: 0.206285
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.29, "epoch": 195}
+{"metric": "Eval - ASR", "value": 2.47%, "epoch": 195}
+{"metric": "Eval - TBA", "value": 73.10%, "epoch": 195}
+For LaTex: 77.29    & 2.47    &   73.10 
+Train Epoch: 196 	Loss: 0.210804
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.17, "epoch": 196}
+{"metric": "Eval - ASR", "value": 2.25%, "epoch": 196}
+{"metric": "Eval - TBA", "value": 73.22%, "epoch": 196}
+For LaTex: 77.17    & 2.25    &   73.22 
+Train Epoch: 197 	Loss: 0.209395
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.22, "epoch": 197}
+{"metric": "Eval - ASR", "value": 2.47%, "epoch": 197}
+{"metric": "Eval - TBA", "value": 73.21%, "epoch": 197}
+For LaTex: 77.22    & 2.47    &   73.21 
+Train Epoch: 198 	Loss: 0.207937
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.33, "epoch": 198}
+{"metric": "Eval - ASR", "value": 2.32%, "epoch": 198}
+{"metric": "Eval - TBA", "value": 73.21%, "epoch": 198}
+For LaTex: 77.33    & 2.32    &   73.21 
+Train Epoch: 199 	Loss: 0.204468
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.40, "epoch": 199}
+{"metric": "Eval - ASR", "value": 2.35%, "epoch": 199}
+{"metric": "Eval - TBA", "value": 73.11%, "epoch": 199}
+For LaTex: 77.40    & 2.35    &   73.11 
+Train Epoch: 200 	Loss: 0.199225
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.38, "epoch": 200}
+{"metric": "Eval - ASR", "value": 2.54%, "epoch": 200}
+{"metric": "Eval - TBA", "value": 72.99%, "epoch": 200}
+For LaTex: 77.38    & 2.54    &   72.99 
+Train Epoch: 201 	Loss: 0.199818
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.33, "epoch": 201}
+{"metric": "Eval - ASR", "value": 2.42%, "epoch": 201}
+{"metric": "Eval - TBA", "value": 73.01%, "epoch": 201}
+For LaTex: 77.33    & 2.42    &   73.01 
+Train Epoch: 202 	Loss: 0.195537
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.26, "epoch": 202}
+{"metric": "Eval - ASR", "value": 2.31%, "epoch": 202}
+{"metric": "Eval - TBA", "value": 73.22%, "epoch": 202}
+For LaTex: 77.26    & 2.31    &   73.22 
+Train Epoch: 203 	Loss: 0.198892
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.24, "epoch": 203}
+{"metric": "Eval - ASR", "value": 2.43%, "epoch": 203}
+{"metric": "Eval - TBA", "value": 73.06%, "epoch": 203}
+For LaTex: 77.24    & 2.43    &   73.06 
+Train Epoch: 204 	Loss: 0.199363
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.34, "epoch": 204}
+{"metric": "Eval - ASR", "value": 2.32%, "epoch": 204}
+{"metric": "Eval - TBA", "value": 73.24%, "epoch": 204}
+For LaTex: 77.34    & 2.32    &   73.24 
+Train Epoch: 205 	Loss: 0.193325
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.19, "epoch": 205}
+{"metric": "Eval - ASR", "value": 2.29%, "epoch": 205}
+{"metric": "Eval - TBA", "value": 73.33%, "epoch": 205}
+For LaTex: 77.19    & 2.29    &   73.33 
+Train Epoch: 206 	Loss: 0.192149
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.10, "epoch": 206}
+{"metric": "Eval - ASR", "value": 2.29%, "epoch": 206}
+{"metric": "Eval - TBA", "value": 73.28%, "epoch": 206}
+For LaTex: 77.10    & 2.29    &   73.28 
+Train Epoch: 207 	Loss: 0.187393
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.10, "epoch": 207}
+{"metric": "Eval - ASR", "value": 2.26%, "epoch": 207}
+{"metric": "Eval - TBA", "value": 73.40%, "epoch": 207}
+For LaTex: 77.10    & 2.26    &   73.40 
+Train Epoch: 208 	Loss: 0.183651
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.21, "epoch": 208}
+{"metric": "Eval - ASR", "value": 2.54%, "epoch": 208}
+{"metric": "Eval - TBA", "value": 73.17%, "epoch": 208}
+For LaTex: 77.21    & 2.54    &   73.17 
+Train Epoch: 209 	Loss: 0.184233
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.15, "epoch": 209}
+{"metric": "Eval - ASR", "value": 2.40%, "epoch": 209}
+{"metric": "Eval - TBA", "value": 73.12%, "epoch": 209}
+For LaTex: 77.15    & 2.40    &   73.12 
+Train Epoch: 210 	Loss: 0.179512
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.25, "epoch": 210}
+{"metric": "Eval - ASR", "value": 2.39%, "epoch": 210}
+{"metric": "Eval - TBA", "value": 73.15%, "epoch": 210}
+For LaTex: 77.25    & 2.39    &   73.15 
+Train Epoch: 211 	Loss: 0.182611
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.41, "epoch": 211}
+{"metric": "Eval - ASR", "value": 2.31%, "epoch": 211}
+{"metric": "Eval - TBA", "value": 73.10%, "epoch": 211}
+For LaTex: 77.41    & 2.31    &   73.10 
+Train Epoch: 212 	Loss: 0.177975
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.36, "epoch": 212}
+{"metric": "Eval - ASR", "value": 2.61%, "epoch": 212}
+{"metric": "Eval - TBA", "value": 73.00%, "epoch": 212}
+For LaTex: 77.36    & 2.61    &   73.00 
+Train Epoch: 213 	Loss: 0.182692
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.22, "epoch": 213}
+{"metric": "Eval - ASR", "value": 2.32%, "epoch": 213}
+{"metric": "Eval - TBA", "value": 73.17%, "epoch": 213}
+For LaTex: 77.22    & 2.32    &   73.17 
+Train Epoch: 214 	Loss: 0.174583
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.19, "epoch": 214}
+{"metric": "Eval - ASR", "value": 2.47%, "epoch": 214}
+{"metric": "Eval - TBA", "value": 73.06%, "epoch": 214}
+For LaTex: 77.19    & 2.47    &   73.06 
+Train Epoch: 215 	Loss: 0.170670
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.22, "epoch": 215}
+{"metric": "Eval - ASR", "value": 2.54%, "epoch": 215}
+{"metric": "Eval - TBA", "value": 73.07%, "epoch": 215}
+For LaTex: 77.22    & 2.54    &   73.07 
+Train Epoch: 216 	Loss: 0.174780
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.25, "epoch": 216}
+{"metric": "Eval - ASR", "value": 2.36%, "epoch": 216}
+{"metric": "Eval - TBA", "value": 73.14%, "epoch": 216}
+For LaTex: 77.25    & 2.36    &   73.14 
+Train Epoch: 217 	Loss: 0.168685
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.39, "epoch": 217}
+{"metric": "Eval - ASR", "value": 2.33%, "epoch": 217}
+{"metric": "Eval - TBA", "value": 73.24%, "epoch": 217}
+For LaTex: 77.39    & 2.33    &   73.24 
+Train Epoch: 218 	Loss: 0.170527
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.12, "epoch": 218}
+{"metric": "Eval - ASR", "value": 2.29%, "epoch": 218}
+{"metric": "Eval - TBA", "value": 73.15%, "epoch": 218}
+For LaTex: 77.12    & 2.29    &   73.15 
+Train Epoch: 219 	Loss: 0.166931
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.29, "epoch": 219}
+{"metric": "Eval - ASR", "value": 2.53%, "epoch": 219}
+{"metric": "Eval - TBA", "value": 73.10%, "epoch": 219}
+For LaTex: 77.29    & 2.53    &   73.10 
+Train Epoch: 220 	Loss: 0.165725
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.15, "epoch": 220}
+{"metric": "Eval - ASR", "value": 2.44%, "epoch": 220}
+{"metric": "Eval - TBA", "value": 72.97%, "epoch": 220}
+For LaTex: 77.15    & 2.44    &   72.97 
+Train Epoch: 221 	Loss: 0.168349
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.24, "epoch": 221}
+{"metric": "Eval - ASR", "value": 2.46%, "epoch": 221}
+{"metric": "Eval - TBA", "value": 73.08%, "epoch": 221}
+For LaTex: 77.24    & 2.46    &   73.08 
+Train Epoch: 222 	Loss: 0.166502
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.30, "epoch": 222}
+{"metric": "Eval - ASR", "value": 2.38%, "epoch": 222}
+{"metric": "Eval - TBA", "value": 73.01%, "epoch": 222}
+For LaTex: 77.30    & 2.38    &   73.01 
+Train Epoch: 223 	Loss: 0.164222
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.29, "epoch": 223}
+{"metric": "Eval - ASR", "value": 2.67%, "epoch": 223}
+{"metric": "Eval - TBA", "value": 72.93%, "epoch": 223}
+For LaTex: 77.29    & 2.67    &   72.93 
+Train Epoch: 224 	Loss: 0.159083
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.15, "epoch": 224}
+{"metric": "Eval - ASR", "value": 2.57%, "epoch": 224}
+{"metric": "Eval - TBA", "value": 73.06%, "epoch": 224}
+For LaTex: 77.15    & 2.57    &   73.06 
+Train Epoch: 225 	Loss: 0.160570
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.28, "epoch": 225}
+{"metric": "Eval - ASR", "value": 2.42%, "epoch": 225}
+{"metric": "Eval - TBA", "value": 72.93%, "epoch": 225}
+For LaTex: 77.28    & 2.42    &   72.93 
+Train Epoch: 226 	Loss: 0.153122
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.16, "epoch": 226}
+{"metric": "Eval - ASR", "value": 2.49%, "epoch": 226}
+{"metric": "Eval - TBA", "value": 72.99%, "epoch": 226}
+For LaTex: 77.16    & 2.49    &   72.99 
+Train Epoch: 227 	Loss: 0.150513
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.03, "epoch": 227}
+{"metric": "Eval - ASR", "value": 2.32%, "epoch": 227}
+{"metric": "Eval - TBA", "value": 73.15%, "epoch": 227}
+For LaTex: 77.03    & 2.32    &   73.15 
+Train Epoch: 228 	Loss: 0.151005
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.08, "epoch": 228}
+{"metric": "Eval - ASR", "value": 2.47%, "epoch": 228}
+{"metric": "Eval - TBA", "value": 73.01%, "epoch": 228}
+For LaTex: 77.08    & 2.47    &   73.01 
+Train Epoch: 229 	Loss: 0.153909
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.20, "epoch": 229}
+{"metric": "Eval - ASR", "value": 2.62%, "epoch": 229}
+{"metric": "Eval - TBA", "value": 72.96%, "epoch": 229}
+For LaTex: 77.20    & 2.62    &   72.96 
+Train Epoch: 230 	Loss: 0.147195
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.03, "epoch": 230}
+{"metric": "Eval - ASR", "value": 2.57%, "epoch": 230}
+{"metric": "Eval - TBA", "value": 73.01%, "epoch": 230}
+For LaTex: 77.03    & 2.57    &   73.01 
+Train Epoch: 231 	Loss: 0.150235
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.04, "epoch": 231}
+{"metric": "Eval - ASR", "value": 2.46%, "epoch": 231}
+{"metric": "Eval - TBA", "value": 73.01%, "epoch": 231}
+For LaTex: 77.04    & 2.46    &   73.01 
+Train Epoch: 232 	Loss: 0.147551
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.03, "epoch": 232}
+{"metric": "Eval - ASR", "value": 2.40%, "epoch": 232}
+{"metric": "Eval - TBA", "value": 73.14%, "epoch": 232}
+For LaTex: 77.03    & 2.40    &   73.14 
+Train Epoch: 233 	Loss: 0.146659
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.20, "epoch": 233}
+{"metric": "Eval - ASR", "value": 2.54%, "epoch": 233}
+{"metric": "Eval - TBA", "value": 72.88%, "epoch": 233}
+For LaTex: 77.20    & 2.54    &   72.88 
+Train Epoch: 234 	Loss: 0.144742
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.08, "epoch": 234}
+{"metric": "Eval - ASR", "value": 2.51%, "epoch": 234}
+{"metric": "Eval - TBA", "value": 72.83%, "epoch": 234}
+For LaTex: 77.08    & 2.51    &   72.83 
+Train Epoch: 235 	Loss: 0.142349
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.91, "epoch": 235}
+{"metric": "Eval - ASR", "value": 2.65%, "epoch": 235}
+{"metric": "Eval - TBA", "value": 72.85%, "epoch": 235}
+For LaTex: 76.91    & 2.65    &   72.85 
+Train Epoch: 236 	Loss: 0.139818
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.94, "epoch": 236}
+{"metric": "Eval - ASR", "value": 2.57%, "epoch": 236}
+{"metric": "Eval - TBA", "value": 72.81%, "epoch": 236}
+For LaTex: 76.94    & 2.57    &   72.81 
+Train Epoch: 237 	Loss: 0.139161
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.00, "epoch": 237}
+{"metric": "Eval - ASR", "value": 2.46%, "epoch": 237}
+{"metric": "Eval - TBA", "value": 72.94%, "epoch": 237}
+For LaTex: 77.00    & 2.46    &   72.94 
+Train Epoch: 238 	Loss: 0.133067
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.17, "epoch": 238}
+{"metric": "Eval - ASR", "value": 2.61%, "epoch": 238}
+{"metric": "Eval - TBA", "value": 73.01%, "epoch": 238}
+For LaTex: 77.17    & 2.61    &   73.01 
+Train Epoch: 239 	Loss: 0.141308
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.12, "epoch": 239}
+{"metric": "Eval - ASR", "value": 2.36%, "epoch": 239}
+{"metric": "Eval - TBA", "value": 73.07%, "epoch": 239}
+For LaTex: 77.12    & 2.36    &   73.07 
+Train Epoch: 240 	Loss: 0.139973
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.19, "epoch": 240}
+{"metric": "Eval - ASR", "value": 2.56%, "epoch": 240}
+{"metric": "Eval - TBA", "value": 72.94%, "epoch": 240}
+For LaTex: 77.19    & 2.56    &   72.94 
+Train Epoch: 241 	Loss: 0.134783
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.97, "epoch": 241}
+{"metric": "Eval - ASR", "value": 2.61%, "epoch": 241}
+{"metric": "Eval - TBA", "value": 72.74%, "epoch": 241}
+For LaTex: 76.97    & 2.61    &   72.74 
+Train Epoch: 242 	Loss: 0.133943
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.08, "epoch": 242}
+{"metric": "Eval - ASR", "value": 2.58%, "epoch": 242}
+{"metric": "Eval - TBA", "value": 72.94%, "epoch": 242}
+For LaTex: 77.08    & 2.58    &   72.94 
+Train Epoch: 243 	Loss: 0.128629
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.04, "epoch": 243}
+{"metric": "Eval - ASR", "value": 2.56%, "epoch": 243}
+{"metric": "Eval - TBA", "value": 72.69%, "epoch": 243}
+For LaTex: 77.04    & 2.56    &   72.69 
+Train Epoch: 244 	Loss: 0.126412
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.03, "epoch": 244}
+{"metric": "Eval - ASR", "value": 2.58%, "epoch": 244}
+{"metric": "Eval - TBA", "value": 72.85%, "epoch": 244}
+For LaTex: 77.03    & 2.58    &   72.85 
+Train Epoch: 245 	Loss: 0.125021
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.97, "epoch": 245}
+{"metric": "Eval - ASR", "value": 2.75%, "epoch": 245}
+{"metric": "Eval - TBA", "value": 72.88%, "epoch": 245}
+For LaTex: 76.97    & 2.75    &   72.88 
+Train Epoch: 246 	Loss: 0.122950
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.00, "epoch": 246}
+{"metric": "Eval - ASR", "value": 2.38%, "epoch": 246}
+{"metric": "Eval - TBA", "value": 73.08%, "epoch": 246}
+For LaTex: 77.00    & 2.38    &   73.08 
+Train Epoch: 247 	Loss: 0.125415
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.01, "epoch": 247}
+{"metric": "Eval - ASR", "value": 2.42%, "epoch": 247}
+{"metric": "Eval - TBA", "value": 72.96%, "epoch": 247}
+For LaTex: 77.01    & 2.42    &   72.96 
+Train Epoch: 248 	Loss: 0.124587
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.15, "epoch": 248}
+{"metric": "Eval - ASR", "value": 2.39%, "epoch": 248}
+{"metric": "Eval - TBA", "value": 73.08%, "epoch": 248}
+For LaTex: 77.15    & 2.39    &   73.08 
+Train Epoch: 249 	Loss: 0.122092
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.01, "epoch": 249}
+{"metric": "Eval - ASR", "value": 2.46%, "epoch": 249}
+{"metric": "Eval - TBA", "value": 72.89%, "epoch": 249}
+For LaTex: 77.01    & 2.46    &   72.89 
+Train Epoch: 250 	Loss: 0.118830
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.04, "epoch": 250}
+{"metric": "Eval - ASR", "value": 2.42%, "epoch": 250}
+{"metric": "Eval - TBA", "value": 72.76%, "epoch": 250}
+For LaTex: 77.04    & 2.42    &   72.76 
+Train Epoch: 251 	Loss: 0.116191
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.17, "epoch": 251}
+{"metric": "Eval - ASR", "value": 2.47%, "epoch": 251}
+{"metric": "Eval - TBA", "value": 72.93%, "epoch": 251}
+For LaTex: 77.17    & 2.47    &   72.93 
+Train Epoch: 252 	Loss: 0.116220
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.05, "epoch": 252}
+{"metric": "Eval - ASR", "value": 2.42%, "epoch": 252}
+{"metric": "Eval - TBA", "value": 72.81%, "epoch": 252}
+For LaTex: 77.05    & 2.42    &   72.81 
+Train Epoch: 253 	Loss: 0.115205
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.16, "epoch": 253}
+{"metric": "Eval - ASR", "value": 2.42%, "epoch": 253}
+{"metric": "Eval - TBA", "value": 72.93%, "epoch": 253}
+For LaTex: 77.16    & 2.42    &   72.93 
+Train Epoch: 254 	Loss: 0.116203
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.08, "epoch": 254}
+{"metric": "Eval - ASR", "value": 2.51%, "epoch": 254}
+{"metric": "Eval - TBA", "value": 73.01%, "epoch": 254}
+For LaTex: 77.08    & 2.51    &   73.01 
+Train Epoch: 255 	Loss: 0.109924
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.03, "epoch": 255}
+{"metric": "Eval - ASR", "value": 2.47%, "epoch": 255}
+{"metric": "Eval - TBA", "value": 72.83%, "epoch": 255}
+For LaTex: 77.03    & 2.47    &   72.83 
+Train Epoch: 256 	Loss: 0.107325
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.10, "epoch": 256}
+{"metric": "Eval - ASR", "value": 2.75%, "epoch": 256}
+{"metric": "Eval - TBA", "value": 72.74%, "epoch": 256}
+For LaTex: 77.10    & 2.75    &   72.74 
+Train Epoch: 257 	Loss: 0.114593
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.20, "epoch": 257}
+{"metric": "Eval - ASR", "value": 2.40%, "epoch": 257}
+{"metric": "Eval - TBA", "value": 73.04%, "epoch": 257}
+For LaTex: 77.20    & 2.40    &   73.04 
+Train Epoch: 258 	Loss: 0.112141
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.01, "epoch": 258}
+{"metric": "Eval - ASR", "value": 2.33%, "epoch": 258}
+{"metric": "Eval - TBA", "value": 72.83%, "epoch": 258}
+For LaTex: 77.01    & 2.33    &   72.83 
+Train Epoch: 259 	Loss: 0.107454
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.99, "epoch": 259}
+{"metric": "Eval - ASR", "value": 2.25%, "epoch": 259}
+{"metric": "Eval - TBA", "value": 73.11%, "epoch": 259}
+For LaTex: 76.99    & 2.25    &   73.11 
+Train Epoch: 260 	Loss: 0.108705
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.28, "epoch": 260}
+{"metric": "Eval - ASR", "value": 2.76%, "epoch": 260}
+{"metric": "Eval - TBA", "value": 72.94%, "epoch": 260}
+For LaTex: 77.28    & 2.76    &   72.94 
+Train Epoch: 261 	Loss: 0.104262
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.15, "epoch": 261}
+{"metric": "Eval - ASR", "value": 2.56%, "epoch": 261}
+{"metric": "Eval - TBA", "value": 72.99%, "epoch": 261}
+For LaTex: 77.15    & 2.56    &   72.99 
+Train Epoch: 262 	Loss: 0.100298
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.12, "epoch": 262}
+{"metric": "Eval - ASR", "value": 2.33%, "epoch": 262}
+{"metric": "Eval - TBA", "value": 72.96%, "epoch": 262}
+For LaTex: 77.12    & 2.33    &   72.96 
+Train Epoch: 263 	Loss: 0.104318
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.19, "epoch": 263}
+{"metric": "Eval - ASR", "value": 2.62%, "epoch": 263}
+{"metric": "Eval - TBA", "value": 72.92%, "epoch": 263}
+For LaTex: 77.19    & 2.62    &   72.92 
+Train Epoch: 264 	Loss: 0.103745
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.10, "epoch": 264}
+{"metric": "Eval - ASR", "value": 2.67%, "epoch": 264}
+{"metric": "Eval - TBA", "value": 72.57%, "epoch": 264}
+For LaTex: 77.10    & 2.67    &   72.57 
+Train Epoch: 265 	Loss: 0.100169
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.01, "epoch": 265}
+{"metric": "Eval - ASR", "value": 2.44%, "epoch": 265}
+{"metric": "Eval - TBA", "value": 72.75%, "epoch": 265}
+For LaTex: 77.01    & 2.44    &   72.75 
+Train Epoch: 266 	Loss: 0.100241
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.12, "epoch": 266}
+{"metric": "Eval - ASR", "value": 2.49%, "epoch": 266}
+{"metric": "Eval - TBA", "value": 72.86%, "epoch": 266}
+For LaTex: 77.12    & 2.49    &   72.86 
+Train Epoch: 267 	Loss: 0.099837
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.19, "epoch": 267}
+{"metric": "Eval - ASR", "value": 2.69%, "epoch": 267}
+{"metric": "Eval - TBA", "value": 72.67%, "epoch": 267}
+For LaTex: 77.19    & 2.69    &   72.67 
+Train Epoch: 268 	Loss: 0.099886
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.12, "epoch": 268}
+{"metric": "Eval - ASR", "value": 2.50%, "epoch": 268}
+{"metric": "Eval - TBA", "value": 72.92%, "epoch": 268}
+For LaTex: 77.12    & 2.50    &   72.92 
+Train Epoch: 269 	Loss: 0.093030
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.14, "epoch": 269}
+{"metric": "Eval - ASR", "value": 2.39%, "epoch": 269}
+{"metric": "Eval - TBA", "value": 72.78%, "epoch": 269}
+For LaTex: 77.14    & 2.39    &   72.78 
+Train Epoch: 270 	Loss: 0.092419
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.04, "epoch": 270}
+{"metric": "Eval - ASR", "value": 2.36%, "epoch": 270}
+{"metric": "Eval - TBA", "value": 72.88%, "epoch": 270}
+For LaTex: 77.04    & 2.36    &   72.88 
+Train Epoch: 271 	Loss: 0.094147
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.91, "epoch": 271}
+{"metric": "Eval - ASR", "value": 2.33%, "epoch": 271}
+{"metric": "Eval - TBA", "value": 72.81%, "epoch": 271}
+For LaTex: 76.91    & 2.33    &   72.81 
+Train Epoch: 272 	Loss: 0.092972
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.12, "epoch": 272}
+{"metric": "Eval - ASR", "value": 2.47%, "epoch": 272}
+{"metric": "Eval - TBA", "value": 72.86%, "epoch": 272}
+For LaTex: 77.12    & 2.47    &   72.86 
+Train Epoch: 273 	Loss: 0.090494
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.12, "epoch": 273}
+{"metric": "Eval - ASR", "value": 2.28%, "epoch": 273}
+{"metric": "Eval - TBA", "value": 72.90%, "epoch": 273}
+For LaTex: 77.12    & 2.28    &   72.90 
+Train Epoch: 274 	Loss: 0.089191
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.94, "epoch": 274}
+{"metric": "Eval - ASR", "value": 2.43%, "epoch": 274}
+{"metric": "Eval - TBA", "value": 72.74%, "epoch": 274}
+For LaTex: 76.94    & 2.43    &   72.74 
+Train Epoch: 275 	Loss: 0.091586
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.12, "epoch": 275}
+{"metric": "Eval - ASR", "value": 2.39%, "epoch": 275}
+{"metric": "Eval - TBA", "value": 72.71%, "epoch": 275}
+For LaTex: 77.12    & 2.39    &   72.71 
+Train Epoch: 276 	Loss: 0.091086
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.96, "epoch": 276}
+{"metric": "Eval - ASR", "value": 2.40%, "epoch": 276}
+{"metric": "Eval - TBA", "value": 72.50%, "epoch": 276}
+For LaTex: 76.96    & 2.40    &   72.50 
+Train Epoch: 277 	Loss: 0.089622
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.12, "epoch": 277}
+{"metric": "Eval - ASR", "value": 2.76%, "epoch": 277}
+{"metric": "Eval - TBA", "value": 72.44%, "epoch": 277}
+For LaTex: 77.12    & 2.76    &   72.44 
+Train Epoch: 278 	Loss: 0.087027
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.11, "epoch": 278}
+{"metric": "Eval - ASR", "value": 2.42%, "epoch": 278}
+{"metric": "Eval - TBA", "value": 72.88%, "epoch": 278}
+For LaTex: 77.11    & 2.42    &   72.88 
+Train Epoch: 279 	Loss: 0.085822
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.09, "epoch": 279}
+{"metric": "Eval - ASR", "value": 2.33%, "epoch": 279}
+{"metric": "Eval - TBA", "value": 72.78%, "epoch": 279}
+For LaTex: 77.09    & 2.33    &   72.78 
+Train Epoch: 280 	Loss: 0.083931
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.03, "epoch": 280}
+{"metric": "Eval - ASR", "value": 2.29%, "epoch": 280}
+{"metric": "Eval - TBA", "value": 72.89%, "epoch": 280}
+For LaTex: 77.03    & 2.29    &   72.89 
+Train Epoch: 281 	Loss: 0.081795
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.11, "epoch": 281}
+{"metric": "Eval - ASR", "value": 2.36%, "epoch": 281}
+{"metric": "Eval - TBA", "value": 72.81%, "epoch": 281}
+For LaTex: 77.11    & 2.36    &   72.81 
+Train Epoch: 282 	Loss: 0.079102
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.12, "epoch": 282}
+{"metric": "Eval - ASR", "value": 2.54%, "epoch": 282}
+{"metric": "Eval - TBA", "value": 72.78%, "epoch": 282}
+For LaTex: 77.12    & 2.54    &   72.78 
+Train Epoch: 283 	Loss: 0.083106
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.08, "epoch": 283}
+{"metric": "Eval - ASR", "value": 2.46%, "epoch": 283}
+{"metric": "Eval - TBA", "value": 72.88%, "epoch": 283}
+For LaTex: 77.08    & 2.46    &   72.88 
+Train Epoch: 284 	Loss: 0.083587
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.00, "epoch": 284}
+{"metric": "Eval - ASR", "value": 2.33%, "epoch": 284}
+{"metric": "Eval - TBA", "value": 72.65%, "epoch": 284}
+For LaTex: 77.00    & 2.33    &   72.65 
+Train Epoch: 285 	Loss: 0.079006
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.03, "epoch": 285}
+{"metric": "Eval - ASR", "value": 2.26%, "epoch": 285}
+{"metric": "Eval - TBA", "value": 72.62%, "epoch": 285}
+For LaTex: 77.03    & 2.26    &   72.62 
+Train Epoch: 286 	Loss: 0.077377
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.01, "epoch": 286}
+{"metric": "Eval - ASR", "value": 2.61%, "epoch": 286}
+{"metric": "Eval - TBA", "value": 72.56%, "epoch": 286}
+For LaTex: 77.01    & 2.61    &   72.56 
+Train Epoch: 287 	Loss: 0.079283
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.92, "epoch": 287}
+{"metric": "Eval - ASR", "value": 2.74%, "epoch": 287}
+{"metric": "Eval - TBA", "value": 72.49%, "epoch": 287}
+For LaTex: 76.92    & 2.74    &   72.49 
+Train Epoch: 288 	Loss: 0.075452
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.94, "epoch": 288}
+{"metric": "Eval - ASR", "value": 2.29%, "epoch": 288}
+{"metric": "Eval - TBA", "value": 72.49%, "epoch": 288}
+For LaTex: 76.94    & 2.29    &   72.49 
+Train Epoch: 289 	Loss: 0.074011
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.06, "epoch": 289}
+{"metric": "Eval - ASR", "value": 2.47%, "epoch": 289}
+{"metric": "Eval - TBA", "value": 72.56%, "epoch": 289}
+For LaTex: 77.06    & 2.47    &   72.56 
+Train Epoch: 290 	Loss: 0.067708
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.91, "epoch": 290}
+{"metric": "Eval - ASR", "value": 2.46%, "epoch": 290}
+{"metric": "Eval - TBA", "value": 72.81%, "epoch": 290}
+For LaTex: 76.91    & 2.46    &   72.81 
+Train Epoch: 291 	Loss: 0.077315
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.97, "epoch": 291}
+{"metric": "Eval - ASR", "value": 2.62%, "epoch": 291}
+{"metric": "Eval - TBA", "value": 72.68%, "epoch": 291}
+For LaTex: 76.97    & 2.62    &   72.68 
+Train Epoch: 292 	Loss: 0.073696
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.91, "epoch": 292}
+{"metric": "Eval - ASR", "value": 2.36%, "epoch": 292}
+{"metric": "Eval - TBA", "value": 72.72%, "epoch": 292}
+For LaTex: 76.91    & 2.36    &   72.72 
+Train Epoch: 293 	Loss: 0.074042
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.00, "epoch": 293}
+{"metric": "Eval - ASR", "value": 2.40%, "epoch": 293}
+{"metric": "Eval - TBA", "value": 72.71%, "epoch": 293}
+For LaTex: 77.00    & 2.40    &   72.71 
+Train Epoch: 294 	Loss: 0.071379
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.08, "epoch": 294}
+{"metric": "Eval - ASR", "value": 2.36%, "epoch": 294}
+{"metric": "Eval - TBA", "value": 72.79%, "epoch": 294}
+For LaTex: 77.08    & 2.36    &   72.79 
+Train Epoch: 295 	Loss: 0.073096
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.96, "epoch": 295}
+{"metric": "Eval - ASR", "value": 2.46%, "epoch": 295}
+{"metric": "Eval - TBA", "value": 72.67%, "epoch": 295}
+For LaTex: 76.96    & 2.46    &   72.67 
+Train Epoch: 296 	Loss: 0.069350
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.99, "epoch": 296}
+{"metric": "Eval - ASR", "value": 2.69%, "epoch": 296}
+{"metric": "Eval - TBA", "value": 72.38%, "epoch": 296}
+For LaTex: 76.99    & 2.69    &   72.38 
+Train Epoch: 297 	Loss: 0.068967
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.06, "epoch": 297}
+{"metric": "Eval - ASR", "value": 2.56%, "epoch": 297}
+{"metric": "Eval - TBA", "value": 72.43%, "epoch": 297}
+For LaTex: 77.06    & 2.56    &   72.43 
+Train Epoch: 298 	Loss: 0.069961
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.00, "epoch": 298}
+{"metric": "Eval - ASR", "value": 2.47%, "epoch": 298}
+{"metric": "Eval - TBA", "value": 72.75%, "epoch": 298}
+For LaTex: 77.00    & 2.47    &   72.75 
+Train Epoch: 299 	Loss: 0.067510
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.85, "epoch": 299}
+{"metric": "Eval - ASR", "value": 2.75%, "epoch": 299}
+{"metric": "Eval - TBA", "value": 72.33%, "epoch": 299}
+For LaTex: 76.85    & 2.75    &   72.33 
+Train Epoch: 300 	Loss: 0.064114
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.89, "epoch": 300}
+{"metric": "Eval - ASR", "value": 2.50%, "epoch": 300}
+{"metric": "Eval - TBA", "value": 72.58%, "epoch": 300}
+For LaTex: 76.89    & 2.50    &   72.58 
+Train Epoch: 301 	Loss: 0.067431
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.78, "epoch": 301}
+{"metric": "Eval - ASR", "value": 2.49%, "epoch": 301}
+{"metric": "Eval - TBA", "value": 72.46%, "epoch": 301}
+For LaTex: 76.78    & 2.49    &   72.46 
+Train Epoch: 302 	Loss: 0.061877
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.00, "epoch": 302}
+{"metric": "Eval - ASR", "value": 2.57%, "epoch": 302}
+{"metric": "Eval - TBA", "value": 72.46%, "epoch": 302}
+For LaTex: 77.00    & 2.57    &   72.46 
+Train Epoch: 303 	Loss: 0.066815
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.96, "epoch": 303}
+{"metric": "Eval - ASR", "value": 2.33%, "epoch": 303}
+{"metric": "Eval - TBA", "value": 72.78%, "epoch": 303}
+For LaTex: 76.96    & 2.33    &   72.78 
+Train Epoch: 304 	Loss: 0.062818
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.90, "epoch": 304}
+{"metric": "Eval - ASR", "value": 2.67%, "epoch": 304}
+{"metric": "Eval - TBA", "value": 72.46%, "epoch": 304}
+For LaTex: 76.90    & 2.67    &   72.46 
+Train Epoch: 305 	Loss: 0.062344
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.84, "epoch": 305}
+{"metric": "Eval - ASR", "value": 2.35%, "epoch": 305}
+{"metric": "Eval - TBA", "value": 72.43%, "epoch": 305}
+For LaTex: 76.84    & 2.35    &   72.43 
+Train Epoch: 306 	Loss: 0.060354
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.88, "epoch": 306}
+{"metric": "Eval - ASR", "value": 2.39%, "epoch": 306}
+{"metric": "Eval - TBA", "value": 72.38%, "epoch": 306}
+For LaTex: 76.88    & 2.39    &   72.38 
+Train Epoch: 307 	Loss: 0.059916
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.90, "epoch": 307}
+{"metric": "Eval - ASR", "value": 2.53%, "epoch": 307}
+{"metric": "Eval - TBA", "value": 72.18%, "epoch": 307}
+For LaTex: 76.90    & 2.53    &   72.18 
+Train Epoch: 308 	Loss: 0.060607
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.89, "epoch": 308}
+{"metric": "Eval - ASR", "value": 2.39%, "epoch": 308}
+{"metric": "Eval - TBA", "value": 72.38%, "epoch": 308}
+For LaTex: 76.89    & 2.39    &   72.38 
+Train Epoch: 309 	Loss: 0.056872
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.89, "epoch": 309}
+{"metric": "Eval - ASR", "value": 2.60%, "epoch": 309}
+{"metric": "Eval - TBA", "value": 72.62%, "epoch": 309}
+For LaTex: 76.89    & 2.60    &   72.62 
+Train Epoch: 310 	Loss: 0.058521
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.90, "epoch": 310}
+{"metric": "Eval - ASR", "value": 2.49%, "epoch": 310}
+{"metric": "Eval - TBA", "value": 72.56%, "epoch": 310}
+For LaTex: 76.90    & 2.49    &   72.56 
+Train Epoch: 311 	Loss: 0.056832
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.86, "epoch": 311}
+{"metric": "Eval - ASR", "value": 2.53%, "epoch": 311}
+{"metric": "Eval - TBA", "value": 72.76%, "epoch": 311}
+For LaTex: 76.86    & 2.53    &   72.76 
+Train Epoch: 312 	Loss: 0.058387
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.86, "epoch": 312}
+{"metric": "Eval - ASR", "value": 2.49%, "epoch": 312}
+{"metric": "Eval - TBA", "value": 72.43%, "epoch": 312}
+For LaTex: 76.86    & 2.49    &   72.43 
+Train Epoch: 313 	Loss: 0.055943
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.88, "epoch": 313}
+{"metric": "Eval - ASR", "value": 2.46%, "epoch": 313}
+{"metric": "Eval - TBA", "value": 72.64%, "epoch": 313}
+For LaTex: 76.88    & 2.46    &   72.64 
+Train Epoch: 314 	Loss: 0.052418
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.74, "epoch": 314}
+{"metric": "Eval - ASR", "value": 2.39%, "epoch": 314}
+{"metric": "Eval - TBA", "value": 72.51%, "epoch": 314}
+For LaTex: 76.74    & 2.39    &   72.51 
+Train Epoch: 315 	Loss: 0.053173
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.99, "epoch": 315}
+{"metric": "Eval - ASR", "value": 2.36%, "epoch": 315}
+{"metric": "Eval - TBA", "value": 72.46%, "epoch": 315}
+For LaTex: 76.99    & 2.36    &   72.46 
+Train Epoch: 316 	Loss: 0.053424
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.83, "epoch": 316}
+{"metric": "Eval - ASR", "value": 2.51%, "epoch": 316}
+{"metric": "Eval - TBA", "value": 72.56%, "epoch": 316}
+For LaTex: 76.83    & 2.51    &   72.56 
+Train Epoch: 317 	Loss: 0.050581
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.88, "epoch": 317}
+{"metric": "Eval - ASR", "value": 2.62%, "epoch": 317}
+{"metric": "Eval - TBA", "value": 72.29%, "epoch": 317}
+For LaTex: 76.88    & 2.62    &   72.29 
+Train Epoch: 318 	Loss: 0.053594
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.81, "epoch": 318}
+{"metric": "Eval - ASR", "value": 2.54%, "epoch": 318}
+{"metric": "Eval - TBA", "value": 72.67%, "epoch": 318}
+For LaTex: 76.81    & 2.54    &   72.67 
+Train Epoch: 319 	Loss: 0.050091
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.99, "epoch": 319}
+{"metric": "Eval - ASR", "value": 2.33%, "epoch": 319}
+{"metric": "Eval - TBA", "value": 72.47%, "epoch": 319}
+For LaTex: 76.99    & 2.33    &   72.47 
+Train Epoch: 320 	Loss: 0.050092
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.96, "epoch": 320}
+{"metric": "Eval - ASR", "value": 2.42%, "epoch": 320}
+{"metric": "Eval - TBA", "value": 72.44%, "epoch": 320}
+For LaTex: 76.96    & 2.42    &   72.44 
+Train Epoch: 321 	Loss: 0.051472
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.75, "epoch": 321}
+{"metric": "Eval - ASR", "value": 2.62%, "epoch": 321}
+{"metric": "Eval - TBA", "value": 72.42%, "epoch": 321}
+For LaTex: 76.75    & 2.62    &   72.42 
+Train Epoch: 322 	Loss: 0.049160
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.80, "epoch": 322}
+{"metric": "Eval - ASR", "value": 2.49%, "epoch": 322}
+{"metric": "Eval - TBA", "value": 72.51%, "epoch": 322}
+For LaTex: 76.80    & 2.49    &   72.51 
+Train Epoch: 323 	Loss: 0.048767
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.86, "epoch": 323}
+{"metric": "Eval - ASR", "value": 2.65%, "epoch": 323}
+{"metric": "Eval - TBA", "value": 72.46%, "epoch": 323}
+For LaTex: 76.86    & 2.65    &   72.46 
+Train Epoch: 324 	Loss: 0.045950
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.80, "epoch": 324}
+{"metric": "Eval - ASR", "value": 2.54%, "epoch": 324}
+{"metric": "Eval - TBA", "value": 72.56%, "epoch": 324}
+For LaTex: 76.80    & 2.54    &   72.56 
+Train Epoch: 325 	Loss: 0.047037
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.81, "epoch": 325}
+{"metric": "Eval - ASR", "value": 2.56%, "epoch": 325}
+{"metric": "Eval - TBA", "value": 72.22%, "epoch": 325}
+For LaTex: 76.81    & 2.56    &   72.22 
+Train Epoch: 326 	Loss: 0.048415
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.96, "epoch": 326}
+{"metric": "Eval - ASR", "value": 2.43%, "epoch": 326}
+{"metric": "Eval - TBA", "value": 72.68%, "epoch": 326}
+For LaTex: 76.96    & 2.43    &   72.68 
+Train Epoch: 327 	Loss: 0.050507
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.83, "epoch": 327}
+{"metric": "Eval - ASR", "value": 2.60%, "epoch": 327}
+{"metric": "Eval - TBA", "value": 72.31%, "epoch": 327}
+For LaTex: 76.83    & 2.60    &   72.31 
+Train Epoch: 328 	Loss: 0.044723
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.99, "epoch": 328}
+{"metric": "Eval - ASR", "value": 2.25%, "epoch": 328}
+{"metric": "Eval - TBA", "value": 72.54%, "epoch": 328}
+For LaTex: 76.99    & 2.25    &   72.54 
+Train Epoch: 329 	Loss: 0.047186
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.79, "epoch": 329}
+{"metric": "Eval - ASR", "value": 2.32%, "epoch": 329}
+{"metric": "Eval - TBA", "value": 72.56%, "epoch": 329}
+For LaTex: 76.79    & 2.32    &   72.56 
+Train Epoch: 330 	Loss: 0.048428
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.83, "epoch": 330}
+{"metric": "Eval - ASR", "value": 2.42%, "epoch": 330}
+{"metric": "Eval - TBA", "value": 72.50%, "epoch": 330}
+For LaTex: 76.83    & 2.42    &   72.50 
+Train Epoch: 331 	Loss: 0.046205
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.04, "epoch": 331}
+{"metric": "Eval - ASR", "value": 2.49%, "epoch": 331}
+{"metric": "Eval - TBA", "value": 72.43%, "epoch": 331}
+For LaTex: 77.04    & 2.49    &   72.43 
+Train Epoch: 332 	Loss: 0.041684
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.86, "epoch": 332}
+{"metric": "Eval - ASR", "value": 2.44%, "epoch": 332}
+{"metric": "Eval - TBA", "value": 72.50%, "epoch": 332}
+For LaTex: 76.86    & 2.44    &   72.50 
+Train Epoch: 333 	Loss: 0.041273
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.95, "epoch": 333}
+{"metric": "Eval - ASR", "value": 2.69%, "epoch": 333}
+{"metric": "Eval - TBA", "value": 72.58%, "epoch": 333}
+For LaTex: 76.95    & 2.69    &   72.58 
+Train Epoch: 334 	Loss: 0.040391
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.69, "epoch": 334}
+{"metric": "Eval - ASR", "value": 2.44%, "epoch": 334}
+{"metric": "Eval - TBA", "value": 72.43%, "epoch": 334}
+For LaTex: 76.69    & 2.44    &   72.43 
+Train Epoch: 335 	Loss: 0.043553
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.88, "epoch": 335}
+{"metric": "Eval - ASR", "value": 2.32%, "epoch": 335}
+{"metric": "Eval - TBA", "value": 72.35%, "epoch": 335}
+For LaTex: 76.88    & 2.32    &   72.35 
+Train Epoch: 336 	Loss: 0.038771
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.83, "epoch": 336}
+{"metric": "Eval - ASR", "value": 2.71%, "epoch": 336}
+{"metric": "Eval - TBA", "value": 72.35%, "epoch": 336}
+For LaTex: 76.83    & 2.71    &   72.35 
+Train Epoch: 337 	Loss: 0.041199
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.67, "epoch": 337}
+{"metric": "Eval - ASR", "value": 2.46%, "epoch": 337}
+{"metric": "Eval - TBA", "value": 72.31%, "epoch": 337}
+For LaTex: 76.67    & 2.46    &   72.31 
+Train Epoch: 338 	Loss: 0.041281
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.99, "epoch": 338}
+{"metric": "Eval - ASR", "value": 2.65%, "epoch": 338}
+{"metric": "Eval - TBA", "value": 72.64%, "epoch": 338}
+For LaTex: 76.99    & 2.65    &   72.64 
+Train Epoch: 339 	Loss: 0.040511
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.00, "epoch": 339}
+{"metric": "Eval - ASR", "value": 2.44%, "epoch": 339}
+{"metric": "Eval - TBA", "value": 72.71%, "epoch": 339}
+For LaTex: 77.00    & 2.44    &   72.71 
+Train Epoch: 340 	Loss: 0.039190
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.85, "epoch": 340}
+{"metric": "Eval - ASR", "value": 2.60%, "epoch": 340}
+{"metric": "Eval - TBA", "value": 72.28%, "epoch": 340}
+For LaTex: 76.85    & 2.60    &   72.28 
+Train Epoch: 341 	Loss: 0.038156
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.80, "epoch": 341}
+{"metric": "Eval - ASR", "value": 2.21%, "epoch": 341}
+{"metric": "Eval - TBA", "value": 72.64%, "epoch": 341}
+For LaTex: 76.80    & 2.21    &   72.64 
+Train Epoch: 342 	Loss: 0.038195
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.01, "epoch": 342}
+{"metric": "Eval - ASR", "value": 2.61%, "epoch": 342}
+{"metric": "Eval - TBA", "value": 72.36%, "epoch": 342}
+For LaTex: 77.01    & 2.61    &   72.36 
+Train Epoch: 343 	Loss: 0.035366
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.89, "epoch": 343}
+{"metric": "Eval - ASR", "value": 2.53%, "epoch": 343}
+{"metric": "Eval - TBA", "value": 72.28%, "epoch": 343}
+For LaTex: 76.89    & 2.53    &   72.28 
+Train Epoch: 344 	Loss: 0.039321
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.84, "epoch": 344}
+{"metric": "Eval - ASR", "value": 2.50%, "epoch": 344}
+{"metric": "Eval - TBA", "value": 72.42%, "epoch": 344}
+For LaTex: 76.84    & 2.50    &   72.42 
+Train Epoch: 345 	Loss: 0.036215
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.94, "epoch": 345}
+{"metric": "Eval - ASR", "value": 2.31%, "epoch": 345}
+{"metric": "Eval - TBA", "value": 72.61%, "epoch": 345}
+For LaTex: 76.94    & 2.31    &   72.61 
+Train Epoch: 346 	Loss: 0.036909
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.04, "epoch": 346}
+{"metric": "Eval - ASR", "value": 2.74%, "epoch": 346}
+{"metric": "Eval - TBA", "value": 72.42%, "epoch": 346}
+For LaTex: 77.04    & 2.74    &   72.42 
+Train Epoch: 347 	Loss: 0.035762
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.84, "epoch": 347}
+{"metric": "Eval - ASR", "value": 2.33%, "epoch": 347}
+{"metric": "Eval - TBA", "value": 72.43%, "epoch": 347}
+For LaTex: 76.84    & 2.33    &   72.43 
+Train Epoch: 348 	Loss: 0.034621
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.89, "epoch": 348}
+{"metric": "Eval - ASR", "value": 2.60%, "epoch": 348}
+{"metric": "Eval - TBA", "value": 72.43%, "epoch": 348}
+For LaTex: 76.89    & 2.60    &   72.43 
+Train Epoch: 349 	Loss: 0.036782
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.90, "epoch": 349}
+{"metric": "Eval - ASR", "value": 2.64%, "epoch": 349}
+{"metric": "Eval - TBA", "value": 72.29%, "epoch": 349}
+For LaTex: 76.90    & 2.64    &   72.29 
+Train Epoch: 350 	Loss: 0.032037
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.72, "epoch": 350}
+{"metric": "Eval - ASR", "value": 2.40%, "epoch": 350}
+{"metric": "Eval - TBA", "value": 72.31%, "epoch": 350}
+For LaTex: 76.72    & 2.40    &   72.31 
+Train Epoch: 351 	Loss: 0.033114
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.76, "epoch": 351}
+{"metric": "Eval - ASR", "value": 2.43%, "epoch": 351}
+{"metric": "Eval - TBA", "value": 72.22%, "epoch": 351}
+For LaTex: 76.76    & 2.43    &   72.22 
+Train Epoch: 352 	Loss: 0.034833
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.71, "epoch": 352}
+{"metric": "Eval - ASR", "value": 2.39%, "epoch": 352}
+{"metric": "Eval - TBA", "value": 72.42%, "epoch": 352}
+For LaTex: 76.71    & 2.39    &   72.42 
+Train Epoch: 353 	Loss: 0.034755
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.00, "epoch": 353}
+{"metric": "Eval - ASR", "value": 2.33%, "epoch": 353}
+{"metric": "Eval - TBA", "value": 72.60%, "epoch": 353}
+For LaTex: 77.00    & 2.33    &   72.60 
+Train Epoch: 354 	Loss: 0.033590
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.70, "epoch": 354}
+{"metric": "Eval - ASR", "value": 2.29%, "epoch": 354}
+{"metric": "Eval - TBA", "value": 72.07%, "epoch": 354}
+For LaTex: 76.70    & 2.29    &   72.07 
+Train Epoch: 355 	Loss: 0.031837
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.83, "epoch": 355}
+{"metric": "Eval - ASR", "value": 2.38%, "epoch": 355}
+{"metric": "Eval - TBA", "value": 72.47%, "epoch": 355}
+For LaTex: 76.83    & 2.38    &   72.47 
+Train Epoch: 356 	Loss: 0.030525
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.79, "epoch": 356}
+{"metric": "Eval - ASR", "value": 2.31%, "epoch": 356}
+{"metric": "Eval - TBA", "value": 72.38%, "epoch": 356}
+For LaTex: 76.79    & 2.31    &   72.38 
+Train Epoch: 357 	Loss: 0.030964
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.71, "epoch": 357}
+{"metric": "Eval - ASR", "value": 2.14%, "epoch": 357}
+{"metric": "Eval - TBA", "value": 72.76%, "epoch": 357}
+For LaTex: 76.71    & 2.14    &   72.76 
+Train Epoch: 358 	Loss: 0.031300
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.66, "epoch": 358}
+{"metric": "Eval - ASR", "value": 2.56%, "epoch": 358}
+{"metric": "Eval - TBA", "value": 72.22%, "epoch": 358}
+For LaTex: 76.66    & 2.56    &   72.22 
+Train Epoch: 359 	Loss: 0.031379
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.61, "epoch": 359}
+{"metric": "Eval - ASR", "value": 2.35%, "epoch": 359}
+{"metric": "Eval - TBA", "value": 72.35%, "epoch": 359}
+For LaTex: 76.61    & 2.35    &   72.35 
+Train Epoch: 360 	Loss: 0.032326
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.88, "epoch": 360}
+{"metric": "Eval - ASR", "value": 2.49%, "epoch": 360}
+{"metric": "Eval - TBA", "value": 72.43%, "epoch": 360}
+For LaTex: 76.88    & 2.49    &   72.43 
+Train Epoch: 361 	Loss: 0.031127
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.80, "epoch": 361}
+{"metric": "Eval - ASR", "value": 2.44%, "epoch": 361}
+{"metric": "Eval - TBA", "value": 72.22%, "epoch": 361}
+For LaTex: 76.80    & 2.44    &   72.22 
+Train Epoch: 362 	Loss: 0.027665
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.80, "epoch": 362}
+{"metric": "Eval - ASR", "value": 2.43%, "epoch": 362}
+{"metric": "Eval - TBA", "value": 72.42%, "epoch": 362}
+For LaTex: 76.80    & 2.43    &   72.42 
+Train Epoch: 363 	Loss: 0.031956
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.75, "epoch": 363}
+{"metric": "Eval - ASR", "value": 2.56%, "epoch": 363}
+{"metric": "Eval - TBA", "value": 72.22%, "epoch": 363}
+For LaTex: 76.75    & 2.56    &   72.22 
+Train Epoch: 364 	Loss: 0.029578
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.88, "epoch": 364}
+{"metric": "Eval - ASR", "value": 2.56%, "epoch": 364}
+{"metric": "Eval - TBA", "value": 72.29%, "epoch": 364}
+For LaTex: 76.88    & 2.56    &   72.29 
+Train Epoch: 365 	Loss: 0.030067
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.70, "epoch": 365}
+{"metric": "Eval - ASR", "value": 2.26%, "epoch": 365}
+{"metric": "Eval - TBA", "value": 72.46%, "epoch": 365}
+For LaTex: 76.70    & 2.26    &   72.46 
+Train Epoch: 366 	Loss: 0.028541
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.46, "epoch": 366}
+{"metric": "Eval - ASR", "value": 2.57%, "epoch": 366}
+{"metric": "Eval - TBA", "value": 72.24%, "epoch": 366}
+For LaTex: 76.46    & 2.57    &   72.24 
+Train Epoch: 367 	Loss: 0.029324
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.97, "epoch": 367}
+{"metric": "Eval - ASR", "value": 2.26%, "epoch": 367}
+{"metric": "Eval - TBA", "value": 72.43%, "epoch": 367}
+For LaTex: 76.97    & 2.26    &   72.43 
+Train Epoch: 368 	Loss: 0.027235
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.92, "epoch": 368}
+{"metric": "Eval - ASR", "value": 2.17%, "epoch": 368}
+{"metric": "Eval - TBA", "value": 72.75%, "epoch": 368}
+For LaTex: 76.92    & 2.17    &   72.75 
+Train Epoch: 369 	Loss: 0.028679
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.64, "epoch": 369}
+{"metric": "Eval - ASR", "value": 2.44%, "epoch": 369}
+{"metric": "Eval - TBA", "value": 72.21%, "epoch": 369}
+For LaTex: 76.64    & 2.44    &   72.21 
+Train Epoch: 370 	Loss: 0.025768
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.92, "epoch": 370}
+{"metric": "Eval - ASR", "value": 2.71%, "epoch": 370}
+{"metric": "Eval - TBA", "value": 72.42%, "epoch": 370}
+For LaTex: 76.92    & 2.71    &   72.42 
+Train Epoch: 371 	Loss: 0.029330
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.72, "epoch": 371}
+{"metric": "Eval - ASR", "value": 2.61%, "epoch": 371}
+{"metric": "Eval - TBA", "value": 72.50%, "epoch": 371}
+For LaTex: 76.72    & 2.61    &   72.50 
+Train Epoch: 372 	Loss: 0.027154
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.76, "epoch": 372}
+{"metric": "Eval - ASR", "value": 2.53%, "epoch": 372}
+{"metric": "Eval - TBA", "value": 72.62%, "epoch": 372}
+For LaTex: 76.76    & 2.53    &   72.62 
+Train Epoch: 373 	Loss: 0.026357
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.76, "epoch": 373}
+{"metric": "Eval - ASR", "value": 2.31%, "epoch": 373}
+{"metric": "Eval - TBA", "value": 72.71%, "epoch": 373}
+For LaTex: 76.76    & 2.31    &   72.71 
+Train Epoch: 374 	Loss: 0.026150
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.78, "epoch": 374}
+{"metric": "Eval - ASR", "value": 2.71%, "epoch": 374}
+{"metric": "Eval - TBA", "value": 72.26%, "epoch": 374}
+For LaTex: 76.78    & 2.71    &   72.26 
+Train Epoch: 375 	Loss: 0.027393
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.74, "epoch": 375}
+{"metric": "Eval - ASR", "value": 2.51%, "epoch": 375}
+{"metric": "Eval - TBA", "value": 72.18%, "epoch": 375}
+For LaTex: 76.74    & 2.51    &   72.18 
+Train Epoch: 376 	Loss: 0.024189
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.83, "epoch": 376}
+{"metric": "Eval - ASR", "value": 2.40%, "epoch": 376}
+{"metric": "Eval - TBA", "value": 72.29%, "epoch": 376}
+For LaTex: 76.83    & 2.40    &   72.29 
+Train Epoch: 377 	Loss: 0.025209
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.78, "epoch": 377}
+{"metric": "Eval - ASR", "value": 2.67%, "epoch": 377}
+{"metric": "Eval - TBA", "value": 72.35%, "epoch": 377}
+For LaTex: 76.78    & 2.67    &   72.35 
+Train Epoch: 378 	Loss: 0.024562
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.71, "epoch": 378}
+{"metric": "Eval - ASR", "value": 2.49%, "epoch": 378}
+{"metric": "Eval - TBA", "value": 72.25%, "epoch": 378}
+For LaTex: 76.71    & 2.49    &   72.25 
+Train Epoch: 379 	Loss: 0.027189
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.72, "epoch": 379}
+{"metric": "Eval - ASR", "value": 2.56%, "epoch": 379}
+{"metric": "Eval - TBA", "value": 72.06%, "epoch": 379}
+For LaTex: 76.72    & 2.56    &   72.06 
+Train Epoch: 380 	Loss: 0.022744
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.90, "epoch": 380}
+{"metric": "Eval - ASR", "value": 2.40%, "epoch": 380}
+{"metric": "Eval - TBA", "value": 72.42%, "epoch": 380}
+For LaTex: 76.90    & 2.40    &   72.42 
+Train Epoch: 381 	Loss: 0.023218
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.85, "epoch": 381}
+{"metric": "Eval - ASR", "value": 2.53%, "epoch": 381}
+{"metric": "Eval - TBA", "value": 72.18%, "epoch": 381}
+For LaTex: 76.85    & 2.53    &   72.18 
+Train Epoch: 382 	Loss: 0.023278
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.86, "epoch": 382}
+{"metric": "Eval - ASR", "value": 2.46%, "epoch": 382}
+{"metric": "Eval - TBA", "value": 72.35%, "epoch": 382}
+For LaTex: 76.86    & 2.46    &   72.35 
+Train Epoch: 383 	Loss: 0.022861
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.88, "epoch": 383}
+{"metric": "Eval - ASR", "value": 2.38%, "epoch": 383}
+{"metric": "Eval - TBA", "value": 72.42%, "epoch": 383}
+For LaTex: 76.88    & 2.38    &   72.42 
+Train Epoch: 384 	Loss: 0.021814
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.86, "epoch": 384}
+{"metric": "Eval - ASR", "value": 2.50%, "epoch": 384}
+{"metric": "Eval - TBA", "value": 72.15%, "epoch": 384}
+For LaTex: 76.86    & 2.50    &   72.15 
+Train Epoch: 385 	Loss: 0.024445
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.91, "epoch": 385}
+{"metric": "Eval - ASR", "value": 2.61%, "epoch": 385}
+{"metric": "Eval - TBA", "value": 72.28%, "epoch": 385}
+For LaTex: 76.91    & 2.61    &   72.28 
+Train Epoch: 386 	Loss: 0.022717
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.88, "epoch": 386}
+{"metric": "Eval - ASR", "value": 2.53%, "epoch": 386}
+{"metric": "Eval - TBA", "value": 72.07%, "epoch": 386}
+For LaTex: 76.88    & 2.53    &   72.07 
+Train Epoch: 387 	Loss: 0.023124
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.90, "epoch": 387}
+{"metric": "Eval - ASR", "value": 2.29%, "epoch": 387}
+{"metric": "Eval - TBA", "value": 72.35%, "epoch": 387}
+For LaTex: 76.90    & 2.29    &   72.35 
+Train Epoch: 388 	Loss: 0.021283
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.94, "epoch": 388}
+{"metric": "Eval - ASR", "value": 2.38%, "epoch": 388}
+{"metric": "Eval - TBA", "value": 72.58%, "epoch": 388}
+For LaTex: 76.94    & 2.38    &   72.58 
+Train Epoch: 389 	Loss: 0.020815
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.89, "epoch": 389}
+{"metric": "Eval - ASR", "value": 2.29%, "epoch": 389}
+{"metric": "Eval - TBA", "value": 72.61%, "epoch": 389}
+For LaTex: 76.89    & 2.29    &   72.61 
+Train Epoch: 390 	Loss: 0.021584
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.85, "epoch": 390}
+{"metric": "Eval - ASR", "value": 2.39%, "epoch": 390}
+{"metric": "Eval - TBA", "value": 72.60%, "epoch": 390}
+For LaTex: 76.85    & 2.39    &   72.60 
+Train Epoch: 391 	Loss: 0.020563
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.75, "epoch": 391}
+{"metric": "Eval - ASR", "value": 2.31%, "epoch": 391}
+{"metric": "Eval - TBA", "value": 72.22%, "epoch": 391}
+For LaTex: 76.75    & 2.31    &   72.22 
+Train Epoch: 392 	Loss: 0.021093
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.80, "epoch": 392}
+{"metric": "Eval - ASR", "value": 2.36%, "epoch": 392}
+{"metric": "Eval - TBA", "value": 72.19%, "epoch": 392}
+For LaTex: 76.80    & 2.36    &   72.19 
+Train Epoch: 393 	Loss: 0.019625
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.00, "epoch": 393}
+{"metric": "Eval - ASR", "value": 2.62%, "epoch": 393}
+{"metric": "Eval - TBA", "value": 72.21%, "epoch": 393}
+For LaTex: 77.00    & 2.62    &   72.21 
+Train Epoch: 394 	Loss: 0.020167
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.88, "epoch": 394}
+{"metric": "Eval - ASR", "value": 2.50%, "epoch": 394}
+{"metric": "Eval - TBA", "value": 72.38%, "epoch": 394}
+For LaTex: 76.88    & 2.50    &   72.38 
+Train Epoch: 395 	Loss: 0.021573
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.84, "epoch": 395}
+{"metric": "Eval - ASR", "value": 2.31%, "epoch": 395}
+{"metric": "Eval - TBA", "value": 72.46%, "epoch": 395}
+For LaTex: 76.84    & 2.31    &   72.46 
+Train Epoch: 396 	Loss: 0.019965
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.83, "epoch": 396}
+{"metric": "Eval - ASR", "value": 2.60%, "epoch": 396}
+{"metric": "Eval - TBA", "value": 72.57%, "epoch": 396}
+For LaTex: 76.83    & 2.60    &   72.57 
+Train Epoch: 397 	Loss: 0.019570
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.05, "epoch": 397}
+{"metric": "Eval - ASR", "value": 2.46%, "epoch": 397}
+{"metric": "Eval - TBA", "value": 72.43%, "epoch": 397}
+For LaTex: 77.05    & 2.46    &   72.43 
+Train Epoch: 398 	Loss: 0.020021
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.90, "epoch": 398}
+{"metric": "Eval - ASR", "value": 2.49%, "epoch": 398}
+{"metric": "Eval - TBA", "value": 72.47%, "epoch": 398}
+For LaTex: 76.90    & 2.49    &   72.47 
+Train Epoch: 399 	Loss: 0.017788
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.78, "epoch": 399}
+{"metric": "Eval - ASR", "value": 2.35%, "epoch": 399}
+{"metric": "Eval - TBA", "value": 72.42%, "epoch": 399}
+For LaTex: 76.78    & 2.35    &   72.42 
+Train Epoch: 400 	Loss: 0.018954
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.84, "epoch": 400}
+{"metric": "Eval - ASR", "value": 2.42%, "epoch": 400}
+{"metric": "Eval - TBA", "value": 72.18%, "epoch": 400}
+For LaTex: 76.84    & 2.42    &   72.18 
+Train Epoch: 401 	Loss: 0.020960
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.81, "epoch": 401}
+{"metric": "Eval - ASR", "value": 2.39%, "epoch": 401}
+{"metric": "Eval - TBA", "value": 72.39%, "epoch": 401}
+For LaTex: 76.81    & 2.39    &   72.39 
+Train Epoch: 402 	Loss: 0.019116
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.85, "epoch": 402}
+{"metric": "Eval - ASR", "value": 2.49%, "epoch": 402}
+{"metric": "Eval - TBA", "value": 72.32%, "epoch": 402}
+For LaTex: 76.85    & 2.49    &   72.32 
+Train Epoch: 403 	Loss: 0.018944
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.89, "epoch": 403}
+{"metric": "Eval - ASR", "value": 2.61%, "epoch": 403}
+{"metric": "Eval - TBA", "value": 72.28%, "epoch": 403}
+For LaTex: 76.89    & 2.61    &   72.28 
+Train Epoch: 404 	Loss: 0.018979
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.79, "epoch": 404}
+{"metric": "Eval - ASR", "value": 2.39%, "epoch": 404}
+{"metric": "Eval - TBA", "value": 72.50%, "epoch": 404}
+For LaTex: 76.79    & 2.39    &   72.50 
+Train Epoch: 405 	Loss: 0.018761
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.74, "epoch": 405}
+{"metric": "Eval - ASR", "value": 2.40%, "epoch": 405}
+{"metric": "Eval - TBA", "value": 72.26%, "epoch": 405}
+For LaTex: 76.74    & 2.40    &   72.26 
+Train Epoch: 406 	Loss: 0.018927
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.81, "epoch": 406}
+{"metric": "Eval - ASR", "value": 2.65%, "epoch": 406}
+{"metric": "Eval - TBA", "value": 72.15%, "epoch": 406}
+For LaTex: 76.81    & 2.65    &   72.15 
+Train Epoch: 407 	Loss: 0.017330
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.81, "epoch": 407}
+{"metric": "Eval - ASR", "value": 2.56%, "epoch": 407}
+{"metric": "Eval - TBA", "value": 72.19%, "epoch": 407}
+For LaTex: 76.81    & 2.56    &   72.19 
+Train Epoch: 408 	Loss: 0.020182
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.84, "epoch": 408}
+{"metric": "Eval - ASR", "value": 2.53%, "epoch": 408}
+{"metric": "Eval - TBA", "value": 72.35%, "epoch": 408}
+For LaTex: 76.84    & 2.53    &   72.35 
+Train Epoch: 409 	Loss: 0.018694
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.65, "epoch": 409}
+{"metric": "Eval - ASR", "value": 2.39%, "epoch": 409}
+{"metric": "Eval - TBA", "value": 72.49%, "epoch": 409}
+For LaTex: 76.65    & 2.39    &   72.49 
+Train Epoch: 410 	Loss: 0.019449
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.76, "epoch": 410}
+{"metric": "Eval - ASR", "value": 2.18%, "epoch": 410}
+{"metric": "Eval - TBA", "value": 72.50%, "epoch": 410}
+For LaTex: 76.76    & 2.18    &   72.50 
+Train Epoch: 411 	Loss: 0.017669
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.67, "epoch": 411}
+{"metric": "Eval - ASR", "value": 2.31%, "epoch": 411}
+{"metric": "Eval - TBA", "value": 72.42%, "epoch": 411}
+For LaTex: 76.67    & 2.31    &   72.42 
+Train Epoch: 412 	Loss: 0.018457
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.94, "epoch": 412}
+{"metric": "Eval - ASR", "value": 2.40%, "epoch": 412}
+{"metric": "Eval - TBA", "value": 72.33%, "epoch": 412}
+For LaTex: 76.94    & 2.40    &   72.33 
+Train Epoch: 413 	Loss: 0.017264
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.99, "epoch": 413}
+{"metric": "Eval - ASR", "value": 2.33%, "epoch": 413}
+{"metric": "Eval - TBA", "value": 72.50%, "epoch": 413}
+For LaTex: 76.99    & 2.33    &   72.50 
+Train Epoch: 414 	Loss: 0.016691
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.88, "epoch": 414}
+{"metric": "Eval - ASR", "value": 2.53%, "epoch": 414}
+{"metric": "Eval - TBA", "value": 72.17%, "epoch": 414}
+For LaTex: 76.88    & 2.53    &   72.17 
+Train Epoch: 415 	Loss: 0.015313
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.88, "epoch": 415}
+{"metric": "Eval - ASR", "value": 2.44%, "epoch": 415}
+{"metric": "Eval - TBA", "value": 72.29%, "epoch": 415}
+For LaTex: 76.88    & 2.44    &   72.29 
+Train Epoch: 416 	Loss: 0.016883
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.90, "epoch": 416}
+{"metric": "Eval - ASR", "value": 2.53%, "epoch": 416}
+{"metric": "Eval - TBA", "value": 72.18%, "epoch": 416}
+For LaTex: 76.90    & 2.53    &   72.18 
+Train Epoch: 417 	Loss: 0.015968
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.83, "epoch": 417}
+{"metric": "Eval - ASR", "value": 2.47%, "epoch": 417}
+{"metric": "Eval - TBA", "value": 71.89%, "epoch": 417}
+For LaTex: 76.83    & 2.47    &   71.89 
+Train Epoch: 418 	Loss: 0.017851
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.83, "epoch": 418}
+{"metric": "Eval - ASR", "value": 2.78%, "epoch": 418}
+{"metric": "Eval - TBA", "value": 72.15%, "epoch": 418}
+For LaTex: 76.83    & 2.78    &   72.15 
+Train Epoch: 419 	Loss: 0.017801
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.74, "epoch": 419}
+{"metric": "Eval - ASR", "value": 2.50%, "epoch": 419}
+{"metric": "Eval - TBA", "value": 72.14%, "epoch": 419}
+For LaTex: 76.74    & 2.50    &   72.14 
+Train Epoch: 420 	Loss: 0.017801
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.66, "epoch": 420}
+{"metric": "Eval - ASR", "value": 2.36%, "epoch": 420}
+{"metric": "Eval - TBA", "value": 72.33%, "epoch": 420}
+For LaTex: 76.66    & 2.36    &   72.33 
+Train Epoch: 421 	Loss: 0.015679
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.61, "epoch": 421}
+{"metric": "Eval - ASR", "value": 2.36%, "epoch": 421}
+{"metric": "Eval - TBA", "value": 72.18%, "epoch": 421}
+For LaTex: 76.61    & 2.36    &   72.18 
+Train Epoch: 422 	Loss: 0.014899
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.65, "epoch": 422}
+{"metric": "Eval - ASR", "value": 2.25%, "epoch": 422}
+{"metric": "Eval - TBA", "value": 72.47%, "epoch": 422}
+For LaTex: 76.65    & 2.25    &   72.47 
+Train Epoch: 423 	Loss: 0.014127
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.86, "epoch": 423}
+{"metric": "Eval - ASR", "value": 2.31%, "epoch": 423}
+{"metric": "Eval - TBA", "value": 72.54%, "epoch": 423}
+For LaTex: 76.86    & 2.31    &   72.54 
+Train Epoch: 424 	Loss: 0.012898
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 77.03, "epoch": 424}
+{"metric": "Eval - ASR", "value": 2.43%, "epoch": 424}
+{"metric": "Eval - TBA", "value": 72.49%, "epoch": 424}
+For LaTex: 77.03    & 2.43    &   72.49 
+Train Epoch: 425 	Loss: 0.013309
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.71, "epoch": 425}
+{"metric": "Eval - ASR", "value": 2.25%, "epoch": 425}
+{"metric": "Eval - TBA", "value": 72.64%, "epoch": 425}
+For LaTex: 76.71    & 2.25    &   72.64 
+Train Epoch: 426 	Loss: 0.016161
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.72, "epoch": 426}
+{"metric": "Eval - ASR", "value": 2.57%, "epoch": 426}
+{"metric": "Eval - TBA", "value": 72.25%, "epoch": 426}
+For LaTex: 76.72    & 2.57    &   72.25 
+Train Epoch: 427 	Loss: 0.013199
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.69, "epoch": 427}
+{"metric": "Eval - ASR", "value": 2.65%, "epoch": 427}
+{"metric": "Eval - TBA", "value": 72.38%, "epoch": 427}
+For LaTex: 76.69    & 2.65    &   72.38 
+Train Epoch: 428 	Loss: 0.013844
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.70, "epoch": 428}
+{"metric": "Eval - ASR", "value": 2.60%, "epoch": 428}
+{"metric": "Eval - TBA", "value": 72.33%, "epoch": 428}
+For LaTex: 76.70    & 2.60    &   72.33 
+Train Epoch: 429 	Loss: 0.013793
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.78, "epoch": 429}
+{"metric": "Eval - ASR", "value": 2.31%, "epoch": 429}
+{"metric": "Eval - TBA", "value": 72.42%, "epoch": 429}
+For LaTex: 76.78    & 2.31    &   72.42 
+Train Epoch: 430 	Loss: 0.014777
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.76, "epoch": 430}
+{"metric": "Eval - ASR", "value": 2.61%, "epoch": 430}
+{"metric": "Eval - TBA", "value": 72.32%, "epoch": 430}
+For LaTex: 76.76    & 2.61    &   72.32 
+Train Epoch: 431 	Loss: 0.014078
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.89, "epoch": 431}
+{"metric": "Eval - ASR", "value": 2.56%, "epoch": 431}
+{"metric": "Eval - TBA", "value": 72.24%, "epoch": 431}
+For LaTex: 76.89    & 2.56    &   72.24 
+Train Epoch: 432 	Loss: 0.014330
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.80, "epoch": 432}
+{"metric": "Eval - ASR", "value": 2.67%, "epoch": 432}
+{"metric": "Eval - TBA", "value": 72.35%, "epoch": 432}
+For LaTex: 76.80    & 2.67    &   72.35 
+Train Epoch: 433 	Loss: 0.014176
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.76, "epoch": 433}
+{"metric": "Eval - ASR", "value": 2.64%, "epoch": 433}
+{"metric": "Eval - TBA", "value": 72.18%, "epoch": 433}
+For LaTex: 76.76    & 2.64    &   72.18 
+Train Epoch: 434 	Loss: 0.013703
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.85, "epoch": 434}
+{"metric": "Eval - ASR", "value": 2.12%, "epoch": 434}
+{"metric": "Eval - TBA", "value": 72.57%, "epoch": 434}
+For LaTex: 76.85    & 2.12    &   72.57 
+Train Epoch: 435 	Loss: 0.012648
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.69, "epoch": 435}
+{"metric": "Eval - ASR", "value": 2.25%, "epoch": 435}
+{"metric": "Eval - TBA", "value": 72.44%, "epoch": 435}
+For LaTex: 76.69    & 2.25    &   72.44 
+Train Epoch: 436 	Loss: 0.015193
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.71, "epoch": 436}
+{"metric": "Eval - ASR", "value": 2.64%, "epoch": 436}
+{"metric": "Eval - TBA", "value": 72.22%, "epoch": 436}
+For LaTex: 76.71    & 2.64    &   72.22 
+Train Epoch: 437 	Loss: 0.013673
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.76, "epoch": 437}
+{"metric": "Eval - ASR", "value": 2.44%, "epoch": 437}
+{"metric": "Eval - TBA", "value": 72.07%, "epoch": 437}
+For LaTex: 76.76    & 2.44    &   72.07 
+Train Epoch: 438 	Loss: 0.012360
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.90, "epoch": 438}
+{"metric": "Eval - ASR", "value": 2.54%, "epoch": 438}
+{"metric": "Eval - TBA", "value": 72.19%, "epoch": 438}
+For LaTex: 76.90    & 2.54    &   72.19 
+Train Epoch: 439 	Loss: 0.012788
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.88, "epoch": 439}
+{"metric": "Eval - ASR", "value": 2.35%, "epoch": 439}
+{"metric": "Eval - TBA", "value": 72.18%, "epoch": 439}
+For LaTex: 76.88    & 2.35    &   72.18 
+Train Epoch: 440 	Loss: 0.012577
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.79, "epoch": 440}
+{"metric": "Eval - ASR", "value": 2.51%, "epoch": 440}
+{"metric": "Eval - TBA", "value": 72.00%, "epoch": 440}
+For LaTex: 76.79    & 2.51    &   72.00 
+Train Epoch: 441 	Loss: 0.010870
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.81, "epoch": 441}
+{"metric": "Eval - ASR", "value": 2.39%, "epoch": 441}
+{"metric": "Eval - TBA", "value": 72.43%, "epoch": 441}
+For LaTex: 76.81    & 2.39    &   72.43 
+Train Epoch: 442 	Loss: 0.013115
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.84, "epoch": 442}
+{"metric": "Eval - ASR", "value": 2.40%, "epoch": 442}
+{"metric": "Eval - TBA", "value": 72.47%, "epoch": 442}
+For LaTex: 76.84    & 2.40    &   72.47 
+Train Epoch: 443 	Loss: 0.013345
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.78, "epoch": 443}
+{"metric": "Eval - ASR", "value": 2.40%, "epoch": 443}
+{"metric": "Eval - TBA", "value": 72.43%, "epoch": 443}
+For LaTex: 76.78    & 2.40    &   72.43 
+Train Epoch: 444 	Loss: 0.011944
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.83, "epoch": 444}
+{"metric": "Eval - ASR", "value": 2.42%, "epoch": 444}
+{"metric": "Eval - TBA", "value": 72.03%, "epoch": 444}
+For LaTex: 76.83    & 2.42    &   72.03 
+Train Epoch: 445 	Loss: 0.012794
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.65, "epoch": 445}
+{"metric": "Eval - ASR", "value": 2.15%, "epoch": 445}
+{"metric": "Eval - TBA", "value": 72.60%, "epoch": 445}
+For LaTex: 76.65    & 2.15    &   72.60 
+Train Epoch: 446 	Loss: 0.012865
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.83, "epoch": 446}
+{"metric": "Eval - ASR", "value": 2.40%, "epoch": 446}
+{"metric": "Eval - TBA", "value": 72.21%, "epoch": 446}
+For LaTex: 76.83    & 2.40    &   72.21 
+Train Epoch: 447 	Loss: 0.010158
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.91, "epoch": 447}
+{"metric": "Eval - ASR", "value": 2.60%, "epoch": 447}
+{"metric": "Eval - TBA", "value": 71.94%, "epoch": 447}
+For LaTex: 76.91    & 2.60    &   71.94 
+Train Epoch: 448 	Loss: 0.012375
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.64, "epoch": 448}
+{"metric": "Eval - ASR", "value": 2.17%, "epoch": 448}
+{"metric": "Eval - TBA", "value": 72.38%, "epoch": 448}
+For LaTex: 76.64    & 2.17    &   72.38 
+Train Epoch: 449 	Loss: 0.011984
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.67, "epoch": 449}
+{"metric": "Eval - ASR", "value": 2.28%, "epoch": 449}
+{"metric": "Eval - TBA", "value": 72.14%, "epoch": 449}
+For LaTex: 76.67    & 2.28    &   72.14 
+Train Epoch: 450 	Loss: 0.012140
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.75, "epoch": 450}
+{"metric": "Eval - ASR", "value": 2.25%, "epoch": 450}
+{"metric": "Eval - TBA", "value": 72.40%, "epoch": 450}
+For LaTex: 76.75    & 2.25    &   72.40 
+Train Epoch: 451 	Loss: 0.010777
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.72, "epoch": 451}
+{"metric": "Eval - ASR", "value": 2.24%, "epoch": 451}
+{"metric": "Eval - TBA", "value": 72.38%, "epoch": 451}
+For LaTex: 76.72    & 2.24    &   72.38 
+Train Epoch: 452 	Loss: 0.012034
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.80, "epoch": 452}
+{"metric": "Eval - ASR", "value": 2.49%, "epoch": 452}
+{"metric": "Eval - TBA", "value": 72.33%, "epoch": 452}
+For LaTex: 76.80    & 2.49    &   72.33 
+Train Epoch: 453 	Loss: 0.010926
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.79, "epoch": 453}
+{"metric": "Eval - ASR", "value": 2.58%, "epoch": 453}
+{"metric": "Eval - TBA", "value": 72.25%, "epoch": 453}
+For LaTex: 76.79    & 2.58    &   72.25 
+Train Epoch: 454 	Loss: 0.011150
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.80, "epoch": 454}
+{"metric": "Eval - ASR", "value": 2.42%, "epoch": 454}
+{"metric": "Eval - TBA", "value": 72.43%, "epoch": 454}
+For LaTex: 76.80    & 2.42    &   72.43 
+Train Epoch: 455 	Loss: 0.010565
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.83, "epoch": 455}
+{"metric": "Eval - ASR", "value": 2.60%, "epoch": 455}
+{"metric": "Eval - TBA", "value": 72.46%, "epoch": 455}
+For LaTex: 76.83    & 2.60    &   72.46 
+Train Epoch: 456 	Loss: 0.011314
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.59, "epoch": 456}
+{"metric": "Eval - ASR", "value": 2.82%, "epoch": 456}
+{"metric": "Eval - TBA", "value": 72.14%, "epoch": 456}
+For LaTex: 76.59    & 2.82    &   72.14 
+Train Epoch: 457 	Loss: 0.011400
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.56, "epoch": 457}
+{"metric": "Eval - ASR", "value": 2.33%, "epoch": 457}
+{"metric": "Eval - TBA", "value": 72.10%, "epoch": 457}
+For LaTex: 76.56    & 2.33    &   72.10 
+Train Epoch: 458 	Loss: 0.012016
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.72, "epoch": 458}
+{"metric": "Eval - ASR", "value": 2.54%, "epoch": 458}
+{"metric": "Eval - TBA", "value": 72.21%, "epoch": 458}
+For LaTex: 76.72    & 2.54    &   72.21 
+Train Epoch: 459 	Loss: 0.010863
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.72, "epoch": 459}
+{"metric": "Eval - ASR", "value": 2.60%, "epoch": 459}
+{"metric": "Eval - TBA", "value": 72.32%, "epoch": 459}
+For LaTex: 76.72    & 2.60    &   72.32 
+Train Epoch: 460 	Loss: 0.011828
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.74, "epoch": 460}
+{"metric": "Eval - ASR", "value": 2.32%, "epoch": 460}
+{"metric": "Eval - TBA", "value": 72.44%, "epoch": 460}
+For LaTex: 76.74    & 2.32    &   72.44 
+Train Epoch: 461 	Loss: 0.011735
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.50, "epoch": 461}
+{"metric": "Eval - ASR", "value": 2.42%, "epoch": 461}
+{"metric": "Eval - TBA", "value": 72.42%, "epoch": 461}
+For LaTex: 76.50    & 2.42    &   72.42 
+Train Epoch: 462 	Loss: 0.010644
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.81, "epoch": 462}
+{"metric": "Eval - ASR", "value": 2.39%, "epoch": 462}
+{"metric": "Eval - TBA", "value": 72.22%, "epoch": 462}
+For LaTex: 76.81    & 2.39    &   72.22 
+Train Epoch: 463 	Loss: 0.010640
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.76, "epoch": 463}
+{"metric": "Eval - ASR", "value": 2.50%, "epoch": 463}
+{"metric": "Eval - TBA", "value": 72.24%, "epoch": 463}
+For LaTex: 76.76    & 2.50    &   72.24 
+Train Epoch: 464 	Loss: 0.008956
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.56, "epoch": 464}
+{"metric": "Eval - ASR", "value": 2.35%, "epoch": 464}
+{"metric": "Eval - TBA", "value": 72.43%, "epoch": 464}
+For LaTex: 76.56    & 2.35    &   72.43 
+Train Epoch: 465 	Loss: 0.010798
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.71, "epoch": 465}
+{"metric": "Eval - ASR", "value": 2.35%, "epoch": 465}
+{"metric": "Eval - TBA", "value": 72.47%, "epoch": 465}
+For LaTex: 76.71    & 2.35    &   72.47 
+Train Epoch: 466 	Loss: 0.010653
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.51, "epoch": 466}
+{"metric": "Eval - ASR", "value": 2.58%, "epoch": 466}
+{"metric": "Eval - TBA", "value": 72.22%, "epoch": 466}
+For LaTex: 76.51    & 2.58    &   72.22 
+Train Epoch: 467 	Loss: 0.009351
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.69, "epoch": 467}
+{"metric": "Eval - ASR", "value": 2.60%, "epoch": 467}
+{"metric": "Eval - TBA", "value": 72.17%, "epoch": 467}
+For LaTex: 76.69    & 2.60    &   72.17 
+Train Epoch: 468 	Loss: 0.011107
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.69, "epoch": 468}
+{"metric": "Eval - ASR", "value": 2.39%, "epoch": 468}
+{"metric": "Eval - TBA", "value": 72.26%, "epoch": 468}
+For LaTex: 76.69    & 2.39    &   72.26 
+Train Epoch: 469 	Loss: 0.012147
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.79, "epoch": 469}
+{"metric": "Eval - ASR", "value": 2.44%, "epoch": 469}
+{"metric": "Eval - TBA", "value": 72.64%, "epoch": 469}
+For LaTex: 76.79    & 2.44    &   72.64 
+Train Epoch: 470 	Loss: 0.011645
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.66, "epoch": 470}
+{"metric": "Eval - ASR", "value": 2.60%, "epoch": 470}
+{"metric": "Eval - TBA", "value": 72.14%, "epoch": 470}
+For LaTex: 76.66    & 2.60    &   72.14 
+Train Epoch: 471 	Loss: 0.009325
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.62, "epoch": 471}
+{"metric": "Eval - ASR", "value": 2.69%, "epoch": 471}
+{"metric": "Eval - TBA", "value": 72.17%, "epoch": 471}
+For LaTex: 76.62    & 2.69    &   72.17 
+Train Epoch: 472 	Loss: 0.008442
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.71, "epoch": 472}
+{"metric": "Eval - ASR", "value": 2.29%, "epoch": 472}
+{"metric": "Eval - TBA", "value": 72.33%, "epoch": 472}
+For LaTex: 76.71    & 2.29    &   72.33 
+Train Epoch: 473 	Loss: 0.009225
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.66, "epoch": 473}
+{"metric": "Eval - ASR", "value": 2.51%, "epoch": 473}
+{"metric": "Eval - TBA", "value": 72.31%, "epoch": 473}
+For LaTex: 76.66    & 2.51    &   72.31 
+Train Epoch: 474 	Loss: 0.008715
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.80, "epoch": 474}
+{"metric": "Eval - ASR", "value": 2.51%, "epoch": 474}
+{"metric": "Eval - TBA", "value": 72.35%, "epoch": 474}
+For LaTex: 76.80    & 2.51    &   72.35 
+Train Epoch: 475 	Loss: 0.009458
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.65, "epoch": 475}
+{"metric": "Eval - ASR", "value": 2.15%, "epoch": 475}
+{"metric": "Eval - TBA", "value": 72.74%, "epoch": 475}
+For LaTex: 76.65    & 2.15    &   72.74 
+Train Epoch: 476 	Loss: 0.009933
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.74, "epoch": 476}
+{"metric": "Eval - ASR", "value": 2.38%, "epoch": 476}
+{"metric": "Eval - TBA", "value": 72.14%, "epoch": 476}
+For LaTex: 76.74    & 2.38    &   72.14 
+Train Epoch: 477 	Loss: 0.009529
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.89, "epoch": 477}
+{"metric": "Eval - ASR", "value": 2.47%, "epoch": 477}
+{"metric": "Eval - TBA", "value": 72.21%, "epoch": 477}
+For LaTex: 76.89    & 2.47    &   72.21 
+Train Epoch: 478 	Loss: 0.008082
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.88, "epoch": 478}
+{"metric": "Eval - ASR", "value": 2.50%, "epoch": 478}
+{"metric": "Eval - TBA", "value": 72.25%, "epoch": 478}
+For LaTex: 76.88    & 2.50    &   72.25 
+Train Epoch: 479 	Loss: 0.009877
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.61, "epoch": 479}
+{"metric": "Eval - ASR", "value": 2.85%, "epoch": 479}
+{"metric": "Eval - TBA", "value": 71.93%, "epoch": 479}
+For LaTex: 76.61    & 2.85    &   71.93 
+Train Epoch: 480 	Loss: 0.010884
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.84, "epoch": 480}
+{"metric": "Eval - ASR", "value": 2.36%, "epoch": 480}
+{"metric": "Eval - TBA", "value": 72.38%, "epoch": 480}
+For LaTex: 76.84    & 2.36    &   72.38 
+Train Epoch: 481 	Loss: 0.007472
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.86, "epoch": 481}
+{"metric": "Eval - ASR", "value": 2.29%, "epoch": 481}
+{"metric": "Eval - TBA", "value": 72.51%, "epoch": 481}
+For LaTex: 76.86    & 2.29    &   72.51 
+Train Epoch: 482 	Loss: 0.007709
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.83, "epoch": 482}
+{"metric": "Eval - ASR", "value": 2.25%, "epoch": 482}
+{"metric": "Eval - TBA", "value": 72.29%, "epoch": 482}
+For LaTex: 76.83    & 2.25    &   72.29 
+Train Epoch: 483 	Loss: 0.010555
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.78, "epoch": 483}
+{"metric": "Eval - ASR", "value": 2.39%, "epoch": 483}
+{"metric": "Eval - TBA", "value": 72.43%, "epoch": 483}
+For LaTex: 76.78    & 2.39    &   72.43 
+Train Epoch: 484 	Loss: 0.009184
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.90, "epoch": 484}
+{"metric": "Eval - ASR", "value": 2.54%, "epoch": 484}
+{"metric": "Eval - TBA", "value": 72.36%, "epoch": 484}
+For LaTex: 76.90    & 2.54    &   72.36 
+Train Epoch: 485 	Loss: 0.008183
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.54, "epoch": 485}
+{"metric": "Eval - ASR", "value": 2.26%, "epoch": 485}
+{"metric": "Eval - TBA", "value": 72.36%, "epoch": 485}
+For LaTex: 76.54    & 2.26    &   72.36 
+Train Epoch: 486 	Loss: 0.007517
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.76, "epoch": 486}
+{"metric": "Eval - ASR", "value": 2.53%, "epoch": 486}
+{"metric": "Eval - TBA", "value": 72.17%, "epoch": 486}
+For LaTex: 76.76    & 2.53    &   72.17 
+Train Epoch: 487 	Loss: 0.006916
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.76, "epoch": 487}
+{"metric": "Eval - ASR", "value": 2.43%, "epoch": 487}
+{"metric": "Eval - TBA", "value": 72.25%, "epoch": 487}
+For LaTex: 76.76    & 2.43    &   72.25 
+Train Epoch: 488 	Loss: 0.007720
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.76, "epoch": 488}
+{"metric": "Eval - ASR", "value": 2.83%, "epoch": 488}
+{"metric": "Eval - TBA", "value": 72.06%, "epoch": 488}
+For LaTex: 76.76    & 2.83    &   72.06 
+Train Epoch: 489 	Loss: 0.007995
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.76, "epoch": 489}
+{"metric": "Eval - ASR", "value": 2.32%, "epoch": 489}
+{"metric": "Eval - TBA", "value": 72.17%, "epoch": 489}
+For LaTex: 76.76    & 2.32    &   72.17 
+Train Epoch: 490 	Loss: 0.008392
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.70, "epoch": 490}
+{"metric": "Eval - ASR", "value": 2.56%, "epoch": 490}
+{"metric": "Eval - TBA", "value": 72.25%, "epoch": 490}
+For LaTex: 76.70    & 2.56    &   72.25 
+Train Epoch: 491 	Loss: 0.009694
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.75, "epoch": 491}
+{"metric": "Eval - ASR", "value": 2.56%, "epoch": 491}
+{"metric": "Eval - TBA", "value": 72.12%, "epoch": 491}
+For LaTex: 76.75    & 2.56    &   72.12 
+Train Epoch: 492 	Loss: 0.007388
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.72, "epoch": 492}
+{"metric": "Eval - ASR", "value": 2.47%, "epoch": 492}
+{"metric": "Eval - TBA", "value": 72.47%, "epoch": 492}
+For LaTex: 76.72    & 2.47    &   72.47 
+Train Epoch: 493 	Loss: 0.010050
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.79, "epoch": 493}
+{"metric": "Eval - ASR", "value": 2.54%, "epoch": 493}
+{"metric": "Eval - TBA", "value": 72.42%, "epoch": 493}
+For LaTex: 76.79    & 2.54    &   72.42 
+Train Epoch: 494 	Loss: 0.008860
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.81, "epoch": 494}
+{"metric": "Eval - ASR", "value": 2.58%, "epoch": 494}
+{"metric": "Eval - TBA", "value": 72.26%, "epoch": 494}
+For LaTex: 76.81    & 2.58    &   72.26 
+Train Epoch: 495 	Loss: 0.007210
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.96, "epoch": 495}
+{"metric": "Eval - ASR", "value": 2.36%, "epoch": 495}
+{"metric": "Eval - TBA", "value": 72.26%, "epoch": 495}
+For LaTex: 76.96    & 2.36    &   72.26 
+Train Epoch: 496 	Loss: 0.007369
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.83, "epoch": 496}
+{"metric": "Eval - ASR", "value": 2.36%, "epoch": 496}
+{"metric": "Eval - TBA", "value": 72.39%, "epoch": 496}
+For LaTex: 76.83    & 2.36    &   72.39 
+Train Epoch: 497 	Loss: 0.008116
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.90, "epoch": 497}
+{"metric": "Eval - ASR", "value": 2.92%, "epoch": 497}
+{"metric": "Eval - TBA", "value": 71.89%, "epoch": 497}
+For LaTex: 76.90    & 2.92    &   71.89 
+Train Epoch: 498 	Loss: 0.007403
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.80, "epoch": 498}
+{"metric": "Eval - ASR", "value": 2.57%, "epoch": 498}
+{"metric": "Eval - TBA", "value": 72.61%, "epoch": 498}
+For LaTex: 76.80    & 2.57    &   72.61 
+Train Epoch: 499 	Loss: 0.008352
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.92, "epoch": 499}
+{"metric": "Eval - ASR", "value": 2.51%, "epoch": 499}
+{"metric": "Eval - TBA", "value": 72.39%, "epoch": 499}
+For LaTex: 76.92    & 2.51    &   72.39 
+Train Epoch: 500 	Loss: 0.007954
+{"metric": "Eval - Backdoored Accuracy (BA)", "value": 76.92, "epoch": 500}
+{"metric": "Eval - ASR", "value": 2.29%, "epoch": 500}
+{"metric": "Eval - TBA", "value": 72.57%, "epoch": 500}
+For LaTex: 76.92    & 2.29    &   72.57 
+torch.Size([3, 32, 32])
+Prediction for bug image: tensor([[7]])
